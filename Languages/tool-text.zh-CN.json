@@ -1,0 +1,602 @@
+[
+  {
+    "name": "Contains a collection of angular dimensions",
+    "category": "description",
+    "translation": "存储一组角度标注数据。"
+  },
+  {
+    "name": "Contains a collection of centermarks",
+    "category": "description",
+    "translation": "存储一组中心标记数据。"
+  },
+  {
+    "name": "Contains a collection of hatches",
+    "category": "description",
+    "translation": "存储一组填充数据。"
+  },
+  {
+    "name": "Contains a collection of block instances",
+    "category": "description",
+    "translation": "存储一组块实例数据。"
+  },
+  {
+    "name": "Contains a collection of leaders",
+    "category": "description",
+    "translation": "存储一组引线数据。"
+  },
+  {
+    "name": "Contains a collection of lights",
+    "category": "description",
+    "translation": "存储一组灯光数据。"
+  },
+  {
+    "name": "Contains a collection of linear dimensions",
+    "category": "description",
+    "translation": "存储一组线性标注数据。"
+  },
+  {
+    "name": "Contains a collection of ordinate dimensions",
+    "category": "description",
+    "translation": "存储一组坐标标注数据。"
+  },
+  {
+    "name": "Contains a collection of radial dimensions",
+    "category": "description",
+    "translation": "存储一组半径标注数据。"
+  },
+  {
+    "name": "Contains a collection of annotation dots",
+    "category": "description",
+    "translation": "存储一组注释点数据。"
+  },
+  {
+    "name": "Contains a collection of text entities",
+    "category": "description",
+    "translation": "存储一组文字对象数据。"
+  },
+  {
+    "name": "Represents a list of Meshing settings.",
+    "category": "description",
+    "translation": "表示一组网格划分设置。"
+  },
+  {
+    "name": "Contains a collection of 2D number domains. This parameter is obsolete, it has been replaced with a parameter that can store persistent data.",
+    "category": "description",
+    "translation": "存储一组二维区间数据。此参数已弃用，已由支持持久化数据的新版参数替代。"
+  },
+  {
+    "name": "Contains a collection of 2D number domains",
+    "category": "description",
+    "translation": "存储一组二维区间数据。"
+  },
+  {
+    "name": "Contains a collection of three-dimensional vectors",
+    "category": "description",
+    "translation": "存储一组向量数据。"
+  },
+  {
+    "name": "Contains a collection of circular arcs",
+    "category": "description",
+    "translation": "存储一组圆弧数据。"
+  },
+  {
+    "name": "Contains a collection of boolean values",
+    "category": "description",
+    "translation": "存储一组布尔值数据。"
+  },
+  {
+    "name": "Contains a collection of boxes",
+    "category": "description",
+    "translation": "存储一组长方体数据。"
+  },
+  {
+    "name": "Contains a collection of Breps (Boundary REPresentations)",
+    "category": "description",
+    "translation": "存储一组边界表示体数据。"
+  },
+  {
+    "name": "Contains a collection of circles",
+    "category": "description",
+    "translation": "存储一组圆数据。"
+  },
+  {
+    "name": "Contains a collection of RGB colours",
+    "category": "description",
+    "translation": "存储一组颜色数据。"
+  },
+  {
+    "name": "Contains a collection of complex numbers",
+    "category": "description",
+    "translation": "存储一组复数数据。"
+  },
+  {
+    "name": "Contains a collection of culture specifiers",
+    "category": "description",
+    "translation": "存储一组区域文化设置数据。"
+  },
+  {
+    "name": "Contains a collection of generic curves",
+    "category": "description",
+    "translation": "存储一组曲线数据。"
+  },
+  {
+    "name": "Contains a collection of Extrusions",
+    "category": "description",
+    "translation": "存储一组挤出体数据。"
+  },
+  {
+    "name": "Contains a collection of vector fields",
+    "category": "description",
+    "translation": "存储一组向量场数据。"
+  },
+  {
+    "name": "Contains a collection of file paths",
+    "category": "description",
+    "translation": "存储一组文件路径数据。"
+  },
+  {
+    "name": "Contains a collection of generic geometry",
+    "category": "description",
+    "translation": "存储一组几何数据。"
+  },
+  {
+    "name": "Contains a collection of geometric groups",
+    "category": "description",
+    "translation": "存储一组组数据。"
+  },
+  {
+    "name": "Contains a collection of Globally Unique Identifiers",
+    "category": "description",
+    "translation": "存储一组全局唯一标识符数据。"
+  },
+  {
+    "name": "Contains a collection of integer numbers",
+    "category": "description",
+    "translation": "存储一组整数数据。"
+  },
+  {
+    "name": "Contains a collection of numeric domains",
+    "category": "description",
+    "translation": "存储一组区间数据。"
+  },
+  {
+    "name": "Contains a collection of latitude-longitude coordinates",
+    "category": "description",
+    "translation": "存储一组地理位置数据。"
+  },
+  {
+    "name": "Contains a collection of line segments",
+    "category": "description",
+    "translation": "存储一组线段数据。"
+  },
+  {
+    "name": "Contains a collection of numeric matrices",
+    "category": "description",
+    "translation": "存储一组矩阵数据。"
+  },
+  {
+    "name": "Contains a collection of polygon meshes",
+    "category": "description",
+    "translation": "存储一组网格数据。"
+  },
+  {
+    "name": "Contains a collection of triangle or quad mesh faces",
+    "category": "description",
+    "translation": "存储一组网格面数据。"
+  },
+  {
+    "name": "Contains a collection of floating point numbers",
+    "category": "description",
+    "translation": "存储一组数值数据。"
+  },
+  {
+    "name": "Contains a collection of generic data",
+    "category": "description",
+    "translation": "存储一组数据数据。"
+  },
+  {
+    "name": "Contains a collection of display materials",
+    "category": "description",
+    "translation": "存储一组显示材质数据。"
+  },
+  {
+    "name": "Contains a collection of three-dimensional axis-systems",
+    "category": "description",
+    "translation": "存储一组平面数据。"
+  },
+  {
+    "name": "Contains a collection of three-dimensional points",
+    "category": "description",
+    "translation": "存储一组点数据。"
+  },
+  {
+    "name": "Contains a collection of point clouds",
+    "category": "description",
+    "translation": "存储一组点云数据。"
+  },
+  {
+    "name": "A predicate defines the criteria and determines whether a specified object meets those criteria",
+    "category": "description",
+    "translation": "定义判断条件，并确定指定对象是否满足这些条件。"
+  },
+  {
+    "name": "Contains a collection of rectangles",
+    "category": "description",
+    "translation": "存储一组矩形数据。"
+  },
+  {
+    "name": "Contains a collection of data-tree paths",
+    "category": "description",
+    "translation": "存储一组数据路径数据。"
+  },
+  {
+    "name": "Contains a collection of SubDs",
+    "category": "description",
+    "translation": "存储一组细分曲面数据。"
+  },
+  {
+    "name": "Contains a collection of generic surfaces",
+    "category": "description",
+    "translation": "存储一组曲面数据。"
+  },
+  {
+    "name": "Contains a collection of text fragments",
+    "category": "description",
+    "translation": "存储一组文本数据。"
+  },
+  {
+    "name": "Contains a collection of times and dates",
+    "category": "description",
+    "translation": "存储一组时间数据。"
+  },
+  {
+    "name": "Contains a collection of three-dimensional transformations",
+    "category": "description",
+    "translation": "存储一组变换数据。"
+  },
+  {
+    "name": "A data receiver object.",
+    "category": "description",
+    "translation": "用于接收数据的对象。"
+  },
+  {
+    "name": "Boolean (true/false) toggle",
+    "category": "description",
+    "translation": "在真（True）和假（False）之间切换的布尔开关。"
+  },
+  {
+    "name": "Button object with two values",
+    "category": "description",
+    "translation": "具有两种状态值的按钮。"
+  },
+  {
+    "name": "Represents a cluster input parameter",
+    "category": "description",
+    "translation": "表示群集的输入参数。"
+  },
+  {
+    "name": "Represents a cluster output parameter",
+    "category": "description",
+    "translation": "表示群集的输出参数。"
+  },
+  {
+    "name": "Contains a cluster of Grasshopper components",
+    "category": "description",
+    "translation": "包含一组封装为群集的 Grasshopper 组件。"
+  },
+  {
+    "name": "Provides a colour picker object",
+    "category": "description",
+    "translation": "提供颜色选择器。"
+  },
+  {
+    "name": "Colour (palette) swatch",
+    "category": "description",
+    "translation": "用于设置颜色的色样面板。"
+  },
+  {
+    "name": "Creates a palette of related colours",
+    "category": "description",
+    "translation": "创建一组相互关联的配色。"
+  },
+  {
+    "name": "Define a document-wide constant for use in Expressions",
+    "category": "description",
+    "translation": "定义可在整个文档的表达式中使用的常量。"
+  },
+  {
+    "name": "A radial dial knob for settings numbers",
+    "category": "description",
+    "translation": "通过旋转拨盘设置数值。"
+  },
+  {
+    "name": "Records data over time",
+    "category": "description",
+    "translation": "随时间记录输入的数据。"
+  },
+  {
+    "name": "Numeric scroller for single numbers",
+    "category": "description",
+    "translation": "通过滚动调整单个数值。"
+  },
+  {
+    "name": "Defines a geometry pipeline from Rhino to Grasshopper",
+    "category": "description",
+    "translation": "建立从 Rhino 向 Grasshopper 传入几何对象的管线。"
+  },
+  {
+    "name": "Push or Pull geometry to and from the Rhino document",
+    "category": "description",
+    "translation": "将几何对象写入 Rhino 文档，或从 Rhino 文档读取几何对象。"
+  },
+  {
+    "name": "Represents a multiple colour gradient",
+    "category": "description",
+    "translation": "表示包含多个颜色的渐变。"
+  },
+  {
+    "name": "Represents a numeric mapping function",
+    "category": "description",
+    "translation": "通过图形定义数值映射函数。"
+  },
+  {
+    "name": "A group of Grasshopper objects",
+    "category": "description",
+    "translation": "由多个 Grasshopper 对象组成的组。"
+  },
+  {
+    "name": "Provides image (bitmap) sampling routines.",
+    "category": "description",
+    "translation": "提供图像（位图）采样功能。"
+  },
+  {
+    "name": "Pick a single item from a data tree",
+    "category": "description",
+    "translation": "从数据树中选取单个数据项。"
+  },
+  {
+    "name": "Jump between different locations",
+    "category": "description",
+    "translation": "在不同的画布位置之间跳转。"
+  },
+  {
+    "name": "A series of doodles",
+    "category": "description",
+    "translation": "一组手绘草图。"
+  },
+  {
+    "name": "A multidimensional slider",
+    "category": "description",
+    "translation": "用于输入多个维度数值的滑块。"
+  },
+  {
+    "name": "Numeric slider for single values",
+    "category": "description",
+    "translation": "通过滑块设置单个数值。"
+  },
+  {
+    "name": "A viewer for data structures.",
+    "category": "description",
+    "translation": "查看数据结构。"
+  },
+  {
+    "name": "A wire relay object",
+    "category": "description",
+    "translation": "用于整理连线的数据中继对象。"
+  },
+  {
+    "name": "Suire-style simplification of data trees.",
+    "category": "description",
+    "translation": "使用 Suire 方式简化数据树。"
+  },
+  {
+    "name": "A thought balloon for annotation",
+    "category": "description",
+    "translation": "用于注释的文字气泡。"
+  },
+  {
+    "name": "A panel for custom notes and text values",
+    "category": "description",
+    "translation": "用于输入自定义注释、文本值或查看数据的面板。"
+  },
+  {
+    "name": "Manually or cyclically trigger updates of certain components.",
+    "category": "description",
+    "translation": "手动或周期性触发指定组件更新。"
+  },
+  {
+    "name": "Provides a list of preset values to choose from",
+    "category": "description",
+    "translation": "提供可供选择的预设值列表。"
+  },
+  {
+    "name": "A timeline of values",
+    "category": "description",
+    "translation": "沿时间轴组织数值。"
+  },
+  {
+    "name": "Read the contents of a file",
+    "category": "description",
+    "translation": "读取文件内容。"
+  },
+  {
+    "name": "Delay data on its way through the document",
+    "category": "description",
+    "translation": "暂缓数据在文档中的传递。"
+  },
+  {
+    "name": "Specialized parameter to compare string input against different comparison engines",
+    "category": "description",
+    "translation": "使用不同的比较方式匹配输入字符串的专用参数。"
+  },
+  {
+    "name": "Contains a collection of attribute keys",
+    "category": "description",
+    "translation": "存储一组模型属性键数据。"
+  },
+  {
+    "name": "Contains a collection of model content elements",
+    "category": "description",
+    "translation": "存储一组模型内容数据。"
+  },
+  {
+    "name": "Contains a collection of fonts",
+    "category": "description",
+    "translation": "存储一组字体数据。"
+  },
+  {
+    "name": "Contains a collection of mesher settings",
+    "category": "description",
+    "translation": "存储一组模型网格划分设置数据。"
+  },
+  {
+    "name": "Contains a collection of model unit systems",
+    "category": "description",
+    "translation": "存储一组单位制数据。"
+  },
+  {
+    "name": "Arrow type",
+    "category": "description",
+    "translation": "箭头类型。"
+  },
+  {
+    "name": "Contains a collection of arrows and their properties",
+    "category": "description",
+    "translation": "存储一组箭头设置数据。"
+  },
+  {
+    "name": "Contains a collection of dimension settings",
+    "category": "description",
+    "translation": "存储一组标注设置数据。"
+  },
+  {
+    "name": "Contains a collection of leader settings",
+    "category": "description",
+    "translation": "存储一组引线设置数据。"
+  },
+  {
+    "name": "Contains a collection of text settings",
+    "category": "description",
+    "translation": "存储一组文字设置数据。"
+  },
+  {
+    "name": "Contains a collection of tolerance settings",
+    "category": "description",
+    "translation": "存储一组公差设置数据。"
+  },
+  {
+    "name": "Contains a collection of units settings",
+    "category": "description",
+    "translation": "存储一组单位设置数据。"
+  },
+  {
+    "name": "Contains a collection of date time format strings",
+    "category": "description",
+    "translation": "存储一组日期时间格式数据。"
+  },
+  {
+    "name": "Contains a collection of model annotation styles",
+    "category": "description",
+    "translation": "存储一组模型标注样式数据。"
+  },
+  {
+    "name": "Contains an Earth anchor point which associates a model point and orientation with a latitude, longitude, and elevation value.",
+    "category": "description",
+    "translation": "包含地球锚点，将模型中的点及方向与纬度、经度和高程关联。"
+  },
+  {
+    "name": "Contains a collection of model block definitions",
+    "category": "description",
+    "translation": "存储一组模型块定义数据。"
+  },
+  {
+    "name": "Contains a collection of model layers",
+    "category": "description",
+    "translation": "存储一组模型图层数据。"
+  },
+  {
+    "name": "Contains a collection of model objects",
+    "category": "description",
+    "translation": "存储一组模型对象数据。"
+  },
+  {
+    "name": "Contains a collection of display modes",
+    "category": "description",
+    "translation": "存储一组显示模式数据。"
+  },
+  {
+    "name": "Contains a collection of rhino page layouts",
+    "category": "description",
+    "translation": "存储一组布局视口数据。"
+  },
+  {
+    "name": "Contains a collection of Rhino viewports",
+    "category": "description",
+    "translation": "存储一组模型视口数据。"
+  },
+  {
+    "name": "Contains a collection of view frames",
+    "category": "description",
+    "translation": "存储一组视图数据。"
+  },
+  {
+    "name": "Contains a collection of object display attributes",
+    "category": "description",
+    "translation": "存储一组对象显示数据。"
+  },
+  {
+    "name": "Contains a collection of object visibility attributes",
+    "category": "description",
+    "translation": "存储一组对象可见性数据。"
+  },
+  {
+    "name": "Contains a collection of color gradients",
+    "category": "description",
+    "translation": "存储一组颜色渐变数据。"
+  },
+  {
+    "name": "Contains a collection of color stops",
+    "category": "description",
+    "translation": "存储一组渐变色标数据。"
+  },
+  {
+    "name": "Contains a collection of model hatch lines",
+    "category": "description",
+    "translation": "存储一组填充线数据。"
+  },
+  {
+    "name": "Contains a collection of model hatch patterns",
+    "category": "description",
+    "translation": "存储一组模型填充图案数据。"
+  },
+  {
+    "name": "Contains a collection of model linetypes",
+    "category": "description",
+    "translation": "存储一组模型线型数据。"
+  },
+  {
+    "name": "Contains a collection of model print widths",
+    "category": "description",
+    "translation": "存储一组模型打印线宽数据。"
+  },
+  {
+    "name": "Contains a collection of object drafting attributes",
+    "category": "description",
+    "translation": "存储一组对象制图属性数据。"
+  },
+  {
+    "name": "Contains a collection of model environments",
+    "category": "description",
+    "translation": "存储一组模型环境数据。"
+  },
+  {
+    "name": "Contains a collection of model materials",
+    "category": "description",
+    "translation": "存储一组模型材质数据。"
+  },
+  {
+    "name": "Contains a collection of object render attributes",
+    "category": "description",
+    "translation": "存储一组对象渲染属性数据。"
+  }
+]

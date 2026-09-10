@@ -1,0 +1,7 @@
+{
+  "scope": "Extracted Params metadata only; not all native tools or GUI coverage",
+  "params_records": 123,
+  "missing_params_names_or_descriptions": [],
+  "all_extracted_records": 178,
+  "note": "Core assembly export only; full catalog must be exported inside Rhino."
+}

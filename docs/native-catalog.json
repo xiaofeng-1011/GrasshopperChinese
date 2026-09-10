@@ -1,0 +1,3562 @@
+﻿{
+    "tools":  [
+                  {
+                      "description":  "Contains a collection of angular dimensions",
+                      "type":  "Grasshopper.Kernel.Parameters.Param_AngularDimension",
+                      "nickname":  "Angular Dimension",
+                      "category":  "Params",
+                      "guid":  "1eb74534-dba3-4d5b-b177-264c9dd58549",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Angular Dimension",
+                      "subcategory":  "Geometry",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Contains a collection of centermarks",
+                      "type":  "Grasshopper.Kernel.Parameters.Param_Centermark",
+                      "nickname":  "Centermark",
+                      "category":  "Params",
+                      "guid":  "71dfdc22-9723-4c6a-a541-a7b25c66b1a2",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Centermark",
+                      "subcategory":  "Geometry",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Contains a collection of hatches",
+                      "type":  "Grasshopper.Kernel.Parameters.Param_Hatch",
+                      "nickname":  "Hatch",
+                      "category":  "Params",
+                      "guid":  "a4bfb03e-700d-4517-8c6b-1e88b466a781",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Hatch",
+                      "subcategory":  "Geometry",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Contains a collection of block instances",
+                      "type":  "Grasshopper.Kernel.Parameters.Param_InstanceReference",
+                      "nickname":  "Block Instance",
+                      "category":  "Params",
+                      "guid":  "6e669311-7c38-400b-94bd-cc3684c71204",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Block Instance",
+                      "subcategory":  "Geometry",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Contains a collection of leaders",
+                      "type":  "Grasshopper.Kernel.Parameters.Param_Leader",
+                      "nickname":  "Leader",
+                      "category":  "Params",
+                      "guid":  "445f328a-45b3-4c67-a784-dc354a8992cd",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Leader",
+                      "subcategory":  "Geometry",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Contains a collection of lights",
+                      "type":  "Grasshopper.Kernel.Parameters.Param_Light",
+                      "nickname":  "Light",
+                      "category":  "Params",
+                      "guid":  "20c109e7-c39d-46df-a29e-f0a8c661e6e5",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Light",
+                      "subcategory":  "Geometry",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Contains a collection of linear dimensions",
+                      "type":  "Grasshopper.Kernel.Parameters.Param_LinearDimension",
+                      "nickname":  "Linear Dimension",
+                      "category":  "Params",
+                      "guid":  "ba477838-8571-4bfe-8e3c-cd71bd946d7d",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Linear Dimension",
+                      "subcategory":  "Geometry",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Contains a collection of ordinate dimensions",
+                      "type":  "Grasshopper.Kernel.Parameters.Param_OrdinateDimension",
+                      "nickname":  "Ordinate Dimension",
+                      "category":  "Params",
+                      "guid":  "b23c41cf-6b36-46f1-9843-bcc0d9d69301",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Ordinate Dimension",
+                      "subcategory":  "Geometry",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Contains a collection of radial dimensions",
+                      "type":  "Grasshopper.Kernel.Parameters.Param_RadialDimension",
+                      "nickname":  "Radial Dimension",
+                      "category":  "Params",
+                      "guid":  "9b1495a1-6c40-447a-b8fb-60b7ea71b47f",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Radial Dimension",
+                      "subcategory":  "Geometry",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Contains a collection of annotation dots",
+                      "type":  "Grasshopper.Kernel.Parameters.Param_TextDot",
+                      "nickname":  "Annotation Dot",
+                      "category":  "Params",
+                      "guid":  "2773c606-0a71-46d2-9921-e63e22e09e3b",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Annotation Dot",
+                      "subcategory":  "Geometry",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Contains a collection of text entities",
+                      "type":  "Grasshopper.Kernel.Parameters.Param_TextEntity",
+                      "nickname":  "Text Entity",
+                      "category":  "Params",
+                      "guid":  "79a2eb73-658a-41a1-99e6-c12fe3357de0",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Text Entity",
+                      "subcategory":  "Geometry",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Represents a list of Meshing settings.",
+                      "type":  "Grasshopper.Kernel.Parameters.Param_MeshParameters",
+                      "nickname":  "Mesh",
+                      "category":  "Params",
+                      "guid":  "c3407fda-b505-4686-9165-38fe7a9274cf",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Mesher Settings",
+                      "subcategory":  "Geometry",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Contains a collection of 2D number domains. This parameter is obsolete, it has been replaced with a parameter that can store persistent data.",
+                      "type":  "Grasshopper.Kernel.Parameters.Param_Interval2D_OBSOLETE",
+                      "nickname":  "Domain²",
+                      "category":  "Params",
+                      "guid":  "fa36c19d-b108-440c-b33d-a0a4642b45cc",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Domain²",
+                      "subcategory":  "Primitive",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Contains a collection of 2D number domains",
+                      "type":  "Grasshopper.Kernel.Parameters.Param_Interval2D",
+                      "nickname":  "Domain²",
+                      "category":  "Params",
+                      "guid":  "90744326-eb53-4a0e-b7ef-4b45f5473d6e",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Domain²",
+                      "subcategory":  "Primitive",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Contains a collection of three-dimensional vectors",
+                      "type":  "Grasshopper.Kernel.Parameters.Param_Vector",
+                      "nickname":  "Vec",
+                      "category":  "Params",
+                      "guid":  "16ef3e75-e315-4899-b531-d3166b42dac9",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Vector",
+                      "subcategory":  "Geometry",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Contains a collection of circular arcs",
+                      "type":  "Grasshopper.Kernel.Parameters.Param_Arc",
+                      "nickname":  "Arc",
+                      "category":  "Params",
+                      "guid":  "04d3eace-deaa-475e-9e69-8f804d687998",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Circular Arc",
+                      "subcategory":  "Geometry",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Contains a collection of boolean values",
+                      "type":  "Grasshopper.Kernel.Parameters.Param_Boolean",
+                      "nickname":  "Bool",
+                      "category":  "Params",
+                      "guid":  "cb95db89-6165-43b6-9c41-5702bc5bf137",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Boolean",
+                      "subcategory":  "Primitive",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Contains a collection of boxes",
+                      "type":  "Grasshopper.Kernel.Parameters.Param_Box",
+                      "nickname":  "Box",
+                      "category":  "Params",
+                      "guid":  "c9482db6-bea9-448d-98ff-fed6d69a8efc",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Box",
+                      "subcategory":  "Geometry",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Contains a collection of Breps (Boundary REPresentations)",
+                      "type":  "Grasshopper.Kernel.Parameters.Param_Brep",
+                      "nickname":  "Brep",
+                      "category":  "Params",
+                      "guid":  "919e146f-30ae-4aae-be34-4d72f555e7da",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Brep",
+                      "subcategory":  "Geometry",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Contains a collection of circles",
+                      "type":  "Grasshopper.Kernel.Parameters.Param_Circle",
+                      "nickname":  "Circle",
+                      "category":  "Params",
+                      "guid":  "d1028c72-ff86-4057-9eb0-36c687a4d98c",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Circle",
+                      "subcategory":  "Geometry",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Contains a collection of RGB colours",
+                      "type":  "Grasshopper.Kernel.Parameters.Param_Colour",
+                      "nickname":  "Col",
+                      "category":  "Params",
+                      "guid":  "203a91c3-287a-43b6-a9c5-ebb96240a650",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Colour",
+                      "subcategory":  "Primitive",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Contains a collection of complex numbers",
+                      "type":  "Grasshopper.Kernel.Parameters.Param_Complex",
+                      "nickname":  "C",
+                      "category":  "Params",
+                      "guid":  "476c0cf8-bc3c-4f1c-a61a-6e91e1f8b91e",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Complex",
+                      "subcategory":  "Primitive",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Contains a collection of culture specifiers",
+                      "type":  "Grasshopper.Kernel.Parameters.Param_Culture",
+                      "nickname":  "Culture",
+                      "category":  "Params",
+                      "guid":  "7fa15783-70da-485c-98c0-a099e6988c3e",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Culture",
+                      "subcategory":  "Primitive",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Contains a collection of generic curves",
+                      "type":  "Grasshopper.Kernel.Parameters.Param_Curve",
+                      "nickname":  "Crv",
+                      "category":  "Params",
+                      "guid":  "d5967b9f-e8ee-436b-a8ad-29fdcecf32d5",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Curve",
+                      "subcategory":  "Geometry",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Contains a collection of Extrusions",
+                      "type":  "Grasshopper.Kernel.Parameters.Param_Extrusion",
+                      "nickname":  "Extrusion",
+                      "category":  "Params",
+                      "guid":  "f638f034-5ce2-4536-8fa5-2c6ab8e9456c",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Extrusion",
+                      "subcategory":  "Geometry",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Contains a collection of vector fields",
+                      "type":  "Grasshopper.Kernel.Parameters.Param_Field",
+                      "nickname":  "Field",
+                      "category":  "Params",
+                      "guid":  "3175e3eb-1ae0-4d0b-9395-53fd3e8f8a28",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Field",
+                      "subcategory":  "Geometry",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Contains a collection of file paths",
+                      "type":  "Grasshopper.Kernel.Parameters.Param_FilePath",
+                      "nickname":  "Path",
+                      "category":  "Params",
+                      "guid":  "06953bda-1d37-4d58-9b38-4b3c74e54c8f",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "File Path",
+                      "subcategory":  "Primitive",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Contains a collection of generic geometry",
+                      "type":  "Grasshopper.Kernel.Parameters.Param_Geometry",
+                      "nickname":  "Geo",
+                      "category":  "Params",
+                      "guid":  "ac2bc2cb-70fb-4dd5-9c78-7e1ea97fe278",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Geometry",
+                      "subcategory":  "Geometry",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Contains a collection of geometric groups",
+                      "type":  "Grasshopper.Kernel.Parameters.Param_Group",
+                      "nickname":  "Grp",
+                      "category":  "Params",
+                      "guid":  "b0851fc0-ab55-47d8-bdda-cc6306a40176",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Group",
+                      "subcategory":  "Geometry",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Contains a collection of Globally Unique Identifiers",
+                      "type":  "Grasshopper.Kernel.Parameters.Param_Guid",
+                      "nickname":  "ID",
+                      "category":  "Params",
+                      "guid":  "faf6e3bb-4c84-4cbf-bd88-6d6a0db5667a",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Guid",
+                      "subcategory":  "Primitive",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Contains a collection of integer numbers",
+                      "type":  "Grasshopper.Kernel.Parameters.Param_Integer",
+                      "nickname":  "Int",
+                      "category":  "Params",
+                      "guid":  "2e3ab970-8545-46bb-836c-1c11e5610bce",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Integer",
+                      "subcategory":  "Primitive",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Contains a collection of numeric domains",
+                      "type":  "Grasshopper.Kernel.Parameters.Param_Interval",
+                      "nickname":  "Domain",
+                      "category":  "Params",
+                      "guid":  "15b7afe5-d0d0-43e1-b894-34fcfe3be384",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Domain",
+                      "subcategory":  "Primitive",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Contains a collection of latitude-longitude coordinates",
+                      "type":  "Grasshopper.Kernel.Parameters.Param_LatLonLocation",
+                      "nickname":  "Loc",
+                      "category":  "Params",
+                      "guid":  "87391af3-35fe-4a40-b001-2bd4547ccd45",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Location",
+                      "subcategory":  "Geometry",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Contains a collection of line segments",
+                      "type":  "Grasshopper.Kernel.Parameters.Param_Line",
+                      "nickname":  "Line",
+                      "category":  "Params",
+                      "guid":  "8529dbdf-9b6f-42e9-8e1f-c7a2bde56a70",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Line",
+                      "subcategory":  "Geometry",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Contains a collection of numeric matrices",
+                      "type":  "Grasshopper.Kernel.Parameters.Param_Matrix",
+                      "nickname":  "Matrix",
+                      "category":  "Params",
+                      "guid":  "bd4a8a18-a3cc-40ba-965b-3be91fee563b",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Matrix",
+                      "subcategory":  "Primitive",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Contains a collection of polygon meshes",
+                      "type":  "Grasshopper.Kernel.Parameters.Param_Mesh",
+                      "nickname":  "Mesh",
+                      "category":  "Params",
+                      "guid":  "1e936df3-0eea-4246-8549-514cb8862b7a",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Mesh",
+                      "subcategory":  "Geometry",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Contains a collection of triangle or quad mesh faces",
+                      "type":  "Grasshopper.Kernel.Parameters.Param_MeshFace",
+                      "nickname":  "Face",
+                      "category":  "Params",
+                      "guid":  "e02b3da5-543a-46ac-a867-0ba6b0a524de",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Mesh Face",
+                      "subcategory":  "Geometry",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Contains a collection of floating point numbers",
+                      "type":  "Grasshopper.Kernel.Parameters.Param_Number",
+                      "nickname":  "Num",
+                      "category":  "Params",
+                      "guid":  "3e8ca6be-fda8-4aaf-b5c0-3c54c8bb7312",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Number",
+                      "subcategory":  "Primitive",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Contains a collection of generic data",
+                      "type":  "Grasshopper.Kernel.Parameters.Param_GenericObject",
+                      "nickname":  "Data",
+                      "category":  "Params",
+                      "guid":  "8ec86459-bf01-4409-baee-174d0d2b13d0",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Data",
+                      "subcategory":  "Primitive",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Contains a collection of display materials",
+                      "type":  "Grasshopper.Kernel.Parameters.Param_OGLShader",
+                      "nickname":  "Shader",
+                      "category":  "Params",
+                      "guid":  "288cfe66-f3dc-4c9a-bb96-ef81f47fe724",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Shader",
+                      "subcategory":  "Primitive",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Contains a collection of three-dimensional axis-systems",
+                      "type":  "Grasshopper.Kernel.Parameters.Param_Plane",
+                      "nickname":  "Pln",
+                      "category":  "Params",
+                      "guid":  "4f8984c4-7c7a-4d69-b0a2-183cbb330d20",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Plane",
+                      "subcategory":  "Geometry",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Contains a collection of three-dimensional points",
+                      "type":  "Grasshopper.Kernel.Parameters.Param_Point",
+                      "nickname":  "Pt",
+                      "category":  "Params",
+                      "guid":  "fbac3e32-f100-4292-8692-77240a42fd1a",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Point",
+                      "subcategory":  "Geometry",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Contains a collection of point clouds",
+                      "type":  "Grasshopper.Kernel.Parameters.Param_PointCloud",
+                      "nickname":  "PCloud",
+                      "category":  "Params",
+                      "guid":  "850b6368-ff26-48ce-9773-ac554ffbaeef",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Point Cloud",
+                      "subcategory":  "Geometry",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "A predicate defines the criteria and determines whether a specified object meets those criteria",
+                      "type":  "Grasshopper.Kernel.Parameters.Param_Predicate",
+                      "nickname":  "Predicate",
+                      "category":  "Params",
+                      "guid":  "fb3e1397-9f12-4f57-89bb-3c12a57b6d70",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Predicate",
+                      "subcategory":  "Primitive",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Contains a collection of rectangles",
+                      "type":  "Grasshopper.Kernel.Parameters.Param_Rectangle",
+                      "nickname":  "Rec",
+                      "category":  "Params",
+                      "guid":  "abf9c670-5462-4cd8-acb3-f1ab0256dbf3",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Rectangle",
+                      "subcategory":  "Geometry",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Contains a collection of script-friendly data",
+                      "type":  "Grasshopper.Kernel.Parameters.Param_ScriptVariable",
+                      "nickname":  "var",
+                      "category":  "Maths",
+                      "guid":  "84fa917c-1ed8-4db3-8be1-7bdc4a6495a2",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Variable",
+                      "subcategory":  "Script",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Contains a collection of data-tree paths",
+                      "type":  "Grasshopper.Kernel.Parameters.Param_StructurePath",
+                      "nickname":  "Path",
+                      "category":  "Params",
+                      "guid":  "56c9c942-791f-4eeb-a4f0-82b93f1c0909",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Data Path",
+                      "subcategory":  "Primitive",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Contains a collection of SubDs",
+                      "type":  "Grasshopper.Kernel.Parameters.Param_SubD",
+                      "nickname":  "SubD",
+                      "category":  "Params",
+                      "guid":  "89cd1a12-0007-4581-99ba-66578665e610",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "SubD",
+                      "subcategory":  "Geometry",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Contains a collection of generic surfaces",
+                      "type":  "Grasshopper.Kernel.Parameters.Param_Surface",
+                      "nickname":  "Srf",
+                      "category":  "Params",
+                      "guid":  "deaf8653-5528-4286-807c-3de8b8dad781",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Surface",
+                      "subcategory":  "Geometry",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Contains a collection of text fragments",
+                      "type":  "Grasshopper.Kernel.Parameters.Param_String",
+                      "nickname":  "Txt",
+                      "category":  "Params",
+                      "guid":  "3ede854e-c753-40eb-84cb-b48008f14fd4",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Text",
+                      "subcategory":  "Primitive",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Contains a collection of times and dates",
+                      "type":  "Grasshopper.Kernel.Parameters.Param_Time",
+                      "nickname":  "Time",
+                      "category":  "Params",
+                      "guid":  "81dfff08-0c83-4f1b-a358-14791d642d9e",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Time",
+                      "subcategory":  "Primitive",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Contains a collection of three-dimensional transformations",
+                      "type":  "Grasshopper.Kernel.Parameters.Param_Transform",
+                      "nickname":  "Transform",
+                      "category":  "Params",
+                      "guid":  "28f40e48-e739-4211-91bd-f4aefa5965f8",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Transform",
+                      "subcategory":  "Geometry",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "A data receiver object.",
+                      "type":  "Grasshopper.Kernel.Parameters.GH_Receiver",
+                      "nickname":  "Receiver",
+                      "category":  "Params",
+                      "guid":  "f19b8c33-dff2-4cc2-b95b-b4005ff3c10c",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Receiver",
+                      "subcategory":  "Primitive",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Bar graph representation of a set of numbers",
+                      "type":  "Grasshopper.Kernel.Special.GH_BarGraph",
+                      "nickname":  "Bar Graph",
+                      "category":  "Display",
+                      "guid":  "e1905a16-da43-4705-bd65-41d34328c4e6",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Bar Graph",
+                      "subcategory":  "Graphs",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Boolean (true/false) toggle",
+                      "type":  "Grasshopper.Kernel.Special.GH_BooleanSwitch_Obsolete",
+                      "nickname":  "Toggle",
+                      "category":  "Params",
+                      "guid":  "ad483f40-dc72-40dc-844d-c9e462c7d19f",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Boolean Toggle",
+                      "subcategory":  "Input",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Boolean (true/false) toggle",
+                      "type":  "Grasshopper.Kernel.Special.GH_BooleanToggle",
+                      "nickname":  "Toggle",
+                      "category":  "Params",
+                      "guid":  "2e78987b-9dfb-42a2-8b76-3923ac8bd91a",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Boolean Toggle",
+                      "subcategory":  "Input",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Button object with two values",
+                      "type":  "Grasshopper.Kernel.Special.GH_ButtonObject",
+                      "nickname":  "Button",
+                      "category":  "Params",
+                      "guid":  "a8b97322-2d53-47cd-905e-b932c3ccd74e",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Button",
+                      "subcategory":  "Input",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Represents a cluster input parameter",
+                      "type":  "Grasshopper.Kernel.Special.GH_ClusterInputHook",
+                      "nickname":  "Input",
+                      "category":  "Params",
+                      "guid":  "448de216-3a12-43cf-a135-e3bfafc87744",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Cluster Input",
+                      "subcategory":  "Util",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Represents a cluster output parameter",
+                      "type":  "Grasshopper.Kernel.Special.GH_ClusterOutputHook",
+                      "nickname":  "Output",
+                      "category":  "Params",
+                      "guid":  "a4b285fe-2e13-4204-b65c-189aa6704da5",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Cluster Output",
+                      "subcategory":  "Util",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Contains a cluster of Grasshopper components",
+                      "type":  "Grasshopper.Kernel.Special.GH_Cluster",
+                      "nickname":  "Cluster",
+                      "category":  "Params",
+                      "guid":  "f31d8d7a-7536-4ac8-9c96-fde6ecda4d0a",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Cluster",
+                      "subcategory":  "Util",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Contains a cluster of Grasshopper components",
+                      "type":  "Grasshopper.Kernel.Special.GH_Cluster_OBSOLETE",
+                      "nickname":  "Cluster",
+                      "category":  "Params",
+                      "guid":  "865c8275-d9db-4b9a-92d4-883ef3b00b4a",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Cluster",
+                      "subcategory":  "Util",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Provides a colour picker object",
+                      "type":  "Grasshopper.Kernel.Special.GH_ColourPickerObject",
+                      "nickname":  "Colour",
+                      "category":  "Params",
+                      "guid":  "339c0ee1-cf11-444f-8e10-65c9150ea755",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Colour Picker",
+                      "subcategory":  "Input",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Colour (palette) swatch",
+                      "type":  "Grasshopper.Kernel.Special.GH_ColourSwatch",
+                      "nickname":  "Swatch",
+                      "category":  "Params",
+                      "guid":  "9c53bac0-ba66-40bd-8154-ce9829b9db1a",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Colour Swatch",
+                      "subcategory":  "Input",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Creates a palette of related colours",
+                      "type":  "Grasshopper.Kernel.Special.GH_ColourWheel",
+                      "nickname":  "Wheel",
+                      "category":  "Params",
+                      "guid":  "51a2ede9-8f8c-4fdf-a375-999c2062eab7",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Colour Wheel",
+                      "subcategory":  "Input",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Define a document-wide constant for use in Expressions",
+                      "type":  "Grasshopper.Kernel.Special.GH_ConstantObject",
+                      "nickname":  "constant",
+                      "category":  "Params",
+                      "guid":  "4ad6703b-84cd-4957-a1b3-f1c6ec270d9c",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Constant",
+                      "subcategory":  "Primitive",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "A radial dial knob for settings numbers",
+                      "type":  "Grasshopper.Kernel.Special.GH_DialKnob",
+                      "nickname":  "Knob",
+                      "category":  "Params",
+                      "guid":  "bcac2747-348b-4edd-ae1f-77a782cebbdd",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Control Knob",
+                      "subcategory":  "Input",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Records data over time",
+                      "type":  "Grasshopper.Kernel.Special.GH_DataRecorder",
+                      "nickname":  "Rec",
+                      "category":  "Params",
+                      "guid":  "401aa475-997a-4139-991d-f980ffdcf908",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Data Recorder",
+                      "subcategory":  "Util",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Numeric scroller for single numbers",
+                      "type":  "Grasshopper.Kernel.Special.GH_DigitScroller",
+                      "nickname":  "",
+                      "category":  "Params",
+                      "guid":  "33bcf975-a0b2-4b54-99fd-585c893b9e88",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Digit Scroller",
+                      "subcategory":  "Input",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Defines a geometry pipeline from Rhino to Grasshopper",
+                      "type":  "Grasshopper.Kernel.Special.GH_GeometryPipeline",
+                      "nickname":  "Pipeline",
+                      "category":  "Params",
+                      "guid":  "b341e2e5-c4b3-49a3-b3a4-b4e6e2054516",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Geometry Pipeline",
+                      "subcategory":  "Geometry",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Push or Pull geometry to and from the Rhino document",
+                      "type":  "Grasshopper.Kernel.Special.GH_GeometryCache",
+                      "nickname":  "",
+                      "category":  "Params",
+                      "guid":  "f91778ca-2700-42fc-8ee6-74049a2292b5",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Geometry Cache",
+                      "subcategory":  "Geometry",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Represents a multiple colour gradient",
+                      "type":  "Grasshopper.Kernel.Special.GH_GradientControl",
+                      "nickname":  "Gradient",
+                      "category":  "Params",
+                      "guid":  "6da9f120-3ad0-4b6e-9fe0-f8cde3a649b7",
+                      "outputs":  [
+                                      {
+                                          "description":  "Colour along gradient at parameter",
+                                          "name":  "Colour",
+                                          "nickname":  "C"
+                                      }
+                                  ],
+                      "name":  "Gradient",
+                      "subcategory":  "Input",
+                      "inputs":  [
+                                     {
+                                         "description":  "Lower limit of gradient range",
+                                         "name":  "Lower limit",
+                                         "nickname":  "L0"
+                                     },
+                                     {
+                                         "description":  "Upper limit of gradient range",
+                                         "name":  "Upper limit",
+                                         "nickname":  "L1"
+                                     },
+                                     {
+                                         "description":  "Parameter along gradient range",
+                                         "name":  "Parameter",
+                                         "nickname":  "t"
+                                     }
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Represents a numeric mapping function",
+                      "type":  "Grasshopper.Kernel.Special.GH_GraphMapper",
+                      "nickname":  "Graph",
+                      "category":  "Params",
+                      "guid":  "bc984576-7aa6-491f-a91d-e444c33675a7",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Graph Mapper",
+                      "subcategory":  "Input",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "A group of Grasshopper objects",
+                      "type":  "Grasshopper.Kernel.Special.GH_Group",
+                      "nickname":  "Group",
+                      "category":  "Params",
+                      "guid":  "c552a431-af5b-46a9-a8a4-0fcbc27ef596",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Group",
+                      "subcategory":  "Util",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Provides image (bitmap) sampling routines.",
+                      "type":  "Grasshopper.Kernel.Special.GH_ImageSampler",
+                      "nickname":  "Image",
+                      "category":  "Params",
+                      "guid":  "d69a3494-785b-4beb-969b-d2373f65abfd",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Image Sampler",
+                      "subcategory":  "Input",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Pick a single item from a data tree",
+                      "type":  "Grasshopper.Kernel.Special.GH_ItemPicker",
+                      "nickname":  "Item",
+                      "category":  "Params",
+                      "guid":  "0ab6acbf-40a6-40e1-a14e-cf0c06268e68",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Cherry Picker",
+                      "subcategory":  "Util",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Jump between different locations",
+                      "type":  "Grasshopper.Kernel.Special.GH_JumpObject",
+                      "nickname":  "",
+                      "category":  "Params",
+                      "guid":  "86720a45-ee9e-49d6-b65e-494c06f66e59",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Jump",
+                      "subcategory":  "Util",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Display a legend consisting of Tags and Colours",
+                      "type":  "Grasshopper.Kernel.Special.GH_Legend",
+                      "nickname":  "Legend",
+                      "category":  "Display",
+                      "guid":  "f6867cdd-2216-4451-9134-7da94bdcd5af",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Legend",
+                      "subcategory":  "Graphs",
+                      "inputs":  [
+                                     {
+                                         "description":  "Legend colours",
+                                         "name":  "Colour",
+                                         "nickname":  "C"
+                                     },
+                                     {
+                                         "description":  "Legend tags",
+                                         "name":  "Tags",
+                                         "nickname":  "T"
+                                     },
+                                     {
+                                         "description":  "Optional legend rectangle in 3D space",
+                                         "name":  "Rectangle",
+                                         "nickname":  "R"
+                                     }
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "A series of doodles",
+                      "type":  "Grasshopper.Kernel.Special.GH_Markup",
+                      "nickname":  "Sketch",
+                      "category":  "Params",
+                      "guid":  "2844fec5-142d-4381-bd5d-4cbcef6d6fed",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Sketch",
+                      "subcategory":  "Util",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "A multidimensional slider",
+                      "type":  "Grasshopper.Kernel.Special.GH_MultiDimensionalSlider",
+                      "nickname":  "MD Slider",
+                      "category":  "Params",
+                      "guid":  "318dacd7-9073-4ede-b043-a0c132eb77e0",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "MD Slider",
+                      "subcategory":  "Input",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Numeric slider for single values",
+                      "type":  "Grasshopper.Kernel.Special.GH_NumberSlider",
+                      "nickname":  "",
+                      "category":  "Params",
+                      "guid":  "57da07bd-ecab-415d-9d86-af36d7073abc",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Number Slider",
+                      "subcategory":  "Input",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "A viewer for data structures.",
+                      "type":  "Grasshopper.Kernel.Special.GH_ParamViewer",
+                      "nickname":  "Viewer",
+                      "category":  "Params",
+                      "guid":  "72a29b54-2e48-474b-a400-d2124c4edf79",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Param Viewer",
+                      "subcategory":  "Util",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Perform lexical operations on data trees.",
+                      "type":  "Grasshopper.Kernel.Special.GH_PathMapper",
+                      "nickname":  "Path Mapper",
+                      "category":  "Sets",
+                      "guid":  "f9b89a46-bc5d-4f7a-9a6f-134f93ac3af9",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Path Mapper",
+                      "subcategory":  "Tree",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Displays a set of text fragments as a pie chart",
+                      "type":  "Grasshopper.Kernel.Special.GH_PieChart",
+                      "nickname":  "Pie",
+                      "category":  "Display",
+                      "guid":  "952c2bcc-b5ec-480a-a0d7-27f016632e33",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Pie Chart",
+                      "subcategory":  "Graphs",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Display a set of y-values as a graph",
+                      "type":  "Grasshopper.Kernel.Special.GH_QuickGraph",
+                      "nickname":  "Graph",
+                      "category":  "Display",
+                      "guid":  "2b69bf71-4e69-43aa-b7be-4f6ce7e45bef",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Quick Graph",
+                      "subcategory":  "Graphs",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "A wire relay object",
+                      "type":  "Grasshopper.Kernel.Special.GH_Relay",
+                      "nickname":  "",
+                      "category":  "Params",
+                      "guid":  "b6236720-8d88-4289-93c3-ac4c99f9b97b",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Relay",
+                      "subcategory":  "Util",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Suire-style simplification of data trees.",
+                      "type":  "Grasshopper.Kernel.Special.GH_SuireSimplifyNode",
+                      "nickname":  "Suirify",
+                      "category":  "Params",
+                      "guid":  "5d4e1eeb-482e-42a7-aa2f-e5deb8a1018e",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Suirify",
+                      "subcategory":  "Util",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "A thought balloon for annotation",
+                      "type":  "Grasshopper.Kernel.Special.GH_TextBalloon",
+                      "nickname":  "Balloon",
+                      "category":  "Params",
+                      "guid":  "5dcad41a-2cc6-4f24-a0e2-fbe949e0a7ee",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Text Balloon",
+                      "subcategory":  "Util",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "A panel for custom notes and text values",
+                      "type":  "Grasshopper.Kernel.Special.GH_Panel",
+                      "nickname":  "",
+                      "category":  "Params",
+                      "guid":  "59e0b89a-e487-49f8-bab8-b5bab16be14c",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Panel",
+                      "subcategory":  "Input",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Manually or cyclically trigger updates of certain components.",
+                      "type":  "Grasshopper.Kernel.Special.GH_Timer",
+                      "nickname":  "",
+                      "category":  "Params",
+                      "guid":  "5a2b0735-ba98-4b7d-a7d3-c1dfc04475ad",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Trigger",
+                      "subcategory":  "Util",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Provides a list of preset values to choose from",
+                      "type":  "Grasshopper.Kernel.Special.GH_ValueList",
+                      "nickname":  "List",
+                      "category":  "Params",
+                      "guid":  "00027467-0d24-4fa7-b178-8dc0ac5f42ec",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Value List",
+                      "subcategory":  "Input",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "A timeline of values",
+                      "type":  "Grasshopper.Kernel.Special.GH_ValueTimeline",
+                      "nickname":  "Timeline",
+                      "category":  "Params",
+                      "guid":  "33eb59b9-5f81-4ef5-8c89-46e6e744522b",
+                      "outputs":  [
+                                      {
+                                          "description":  "Interpolated values for A",
+                                          "name":  "Value A",
+                                          "nickname":  "A"
+                                      }
+                                  ],
+                      "name":  "Timeline",
+                      "subcategory":  "Special",
+                      "inputs":  [
+                                     {
+                                         "description":  "Value domain for parameter",
+                                         "name":  "A",
+                                         "nickname":  "A"
+                                     }
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Track a collection of numeric values over time",
+                      "type":  "Grasshopper.Kernel.Special.GH_ValueTracker",
+                      "nickname":  "Tracker",
+                      "category":  "Display",
+                      "guid":  "615367b4-c9d0-4cb7-986c-cb861226136f",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Value Tracker",
+                      "subcategory":  "Graphs",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Draws Rhino Curvature Graphs.",
+                      "type":  "Grasshopper.Kernel.Components.GH_CurvatureGraphComponent",
+                      "nickname":  "CrvGraph",
+                      "category":  "Curve",
+                      "guid":  "7376fe41-74ec-497e-b367-1ffe5072608b",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Curvature Graph",
+                      "subcategory":  "Analysis",
+                      "inputs":  [
+                                     {
+                                         "description":  "Curve for Curvature graph display",
+                                         "name":  "Curve",
+                                         "nickname":  "C"
+                                     },
+                                     {
+                                         "description":  "Sampling density of the Graph",
+                                         "name":  "Density",
+                                         "nickname":  "D"
+                                     },
+                                     {
+                                         "description":  "Scale of graph",
+                                         "name":  "Scale",
+                                         "nickname":  "S"
+                                     }
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Example",
+                      "type":  "Grasshopper.Kernel.Components.GH_DocExampleComponent",
+                      "nickname":  "X",
+                      "category":  "X",
+                      "guid":  "d541404d-b806-453e-8351-a954e824ed22",
+                      "outputs":  [
+                                      {
+                                          "description":  "First Split result.",
+                                          "name":  "Arc A",
+                                          "nickname":  "A"
+                                      },
+                                      {
+                                          "description":  "Second Split result.",
+                                          "name":  "Arc B",
+                                          "nickname":  "B"
+                                      }
+                                  ],
+                      "name":  "Example",
+                      "subcategory":  "X",
+                      "inputs":  [
+                                     {
+                                         "description":  "The circle to slice",
+                                         "name":  "Circle",
+                                         "nickname":  "C"
+                                     },
+                                     {
+                                         "description":  "Slicing line",
+                                         "name":  "Line",
+                                         "nickname":  "L"
+                                     }
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Read the contents of a file",
+                      "type":  "Grasshopper.Kernel.Components.GH_ReadFileComponent",
+                      "nickname":  "File",
+                      "category":  "Params",
+                      "guid":  "6587fcbf-e3cf-480a-b2f5-641794474194",
+                      "outputs":  [
+                                      {
+                                          "description":  "File content",
+                                          "name":  "Content",
+                                          "nickname":  "C"
+                                      }
+                                  ],
+                      "name":  "Read File",
+                      "subcategory":  "Input",
+                      "inputs":  [
+                                     {
+                                         "description":  "Uri of file to read",
+                                         "name":  "File",
+                                         "nickname":  "F"
+                                     }
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "2D Metaball isocurve through point",
+                      "type":  "Grasshopper.Kernel.Components.GH_MetaBallComponent",
+                      "nickname":  "MetaBall",
+                      "category":  "Mesh",
+                      "guid":  "dc934310-67eb-4d1d-8607-7cc62a501dd9",
+                      "outputs":  [
+                                      {
+                                          "description":  "Metaball isocurve",
+                                          "name":  "Isocurve",
+                                          "nickname":  "I"
+                                      }
+                                  ],
+                      "name":  "MetaBall",
+                      "subcategory":  "Triangulation",
+                      "inputs":  [
+                                     {
+                                         "description":  "Point charge locations",
+                                         "name":  "Points",
+                                         "nickname":  "P"
+                                     },
+                                     {
+                                         "description":  "Metaball section plane",
+                                         "name":  "Plane",
+                                         "nickname":  "Pl"
+                                     },
+                                     {
+                                         "description":  "Isocurve intersection",
+                                         "name":  "Point",
+                                         "nickname":  "X"
+                                     },
+                                     {
+                                         "description":  "Isocurve sampling accuracy (leave blank for adaptive accuracy)",
+                                         "name":  "Accuracy",
+                                         "nickname":  "A"
+                                     }
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "2D Metaball isosurface by threshold",
+                      "type":  "Grasshopper.Kernel.Components.GH_MetaBallComponentThreshold",
+                      "nickname":  "MetaBall(t)",
+                      "category":  "Mesh",
+                      "guid":  "c48cf4d4-432c-41b6-b77a-77650479a31f",
+                      "outputs":  [
+                                      {
+                                          "description":  "Metaball isocurves",
+                                          "name":  "Isocurve",
+                                          "nickname":  "I"
+                                      }
+                                  ],
+                      "name":  "MetaBall(t)",
+                      "subcategory":  "Triangulation",
+                      "inputs":  [
+                                     {
+                                         "description":  "Point charge locations",
+                                         "name":  "Points",
+                                         "nickname":  "P"
+                                     },
+                                     {
+                                         "description":  "Metaball section plane",
+                                         "name":  "Plane",
+                                         "nickname":  "Pl"
+                                     },
+                                     {
+                                         "description":  "Isocurve threshold value",
+                                         "name":  "Threshold",
+                                         "nickname":  "T"
+                                     },
+                                     {
+                                         "description":  "Isocurve sampling accuracy (leave blank for default accuracy)",
+                                         "name":  "Accuracy",
+                                         "nickname":  "A"
+                                     }
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "2D Metaball isosurface by threshold and custom charge values",
+                      "type":  "Grasshopper.Kernel.Components.GH_MetaBallComponentThresholdEx",
+                      "nickname":  "MetaBall(t)",
+                      "category":  "Mesh",
+                      "guid":  "c4373505-a4cf-4992-8db1-fd6e6bb5850d",
+                      "outputs":  [
+                                      {
+                                          "description":  "Metaball isocurves",
+                                          "name":  "Isocurve",
+                                          "nickname":  "I"
+                                      }
+                                  ],
+                      "name":  "MetaBall(t) Custom",
+                      "subcategory":  "Triangulation",
+                      "inputs":  [
+                                     {
+                                         "description":  "Point charge locations",
+                                         "name":  "Points",
+                                         "nickname":  "P"
+                                     },
+                                     {
+                                         "description":  "Point charges (positive values only)",
+                                         "name":  "Charge",
+                                         "nickname":  "C"
+                                     },
+                                     {
+                                         "description":  "Metaball section plane",
+                                         "name":  "Plane",
+                                         "nickname":  "Pl"
+                                     },
+                                     {
+                                         "description":  "Isocurve threshold value",
+                                         "name":  "Threshold",
+                                         "nickname":  "T"
+                                     },
+                                     {
+                                         "description":  "Isocurve sampling accuracy (leave blank for default accuracy)",
+                                         "name":  "Accuracy",
+                                         "nickname":  "A"
+                                     }
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Compare a path to a mask pattern",
+                      "type":  "Grasshopper.Kernel.Components.GH_PathCompareComponent",
+                      "nickname":  "Compare",
+                      "category":  "Sets",
+                      "guid":  "1d8b0e2c-e772-4fa9-b7f7-b158251b34b8",
+                      "outputs":  [
+                                      {
+                                          "description":  "Comparison (True = Match, False = Mismatch)",
+                                          "name":  "Comparison",
+                                          "nickname":  "C"
+                                      }
+                                  ],
+                      "name":  "Path Compare",
+                      "subcategory":  "Tree",
+                      "inputs":  [
+                                     {
+                                         "description":  "Path to compare",
+                                         "name":  "Path",
+                                         "nickname":  "P"
+                                     },
+                                     {
+                                         "description":  "Comparison mask",
+                                         "name":  "Mask",
+                                         "nickname":  "M"
+                                     }
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Split a data tree into two parts using path masks.",
+                      "type":  "Grasshopper.Kernel.Components.GH_TreeSplitComponent",
+                      "nickname":  "Split",
+                      "category":  "Sets",
+                      "guid":  "d8b1e7ac-cd31-4748-b262-e07e53068afc",
+                      "outputs":  [
+                                      {
+                                          "description":  "Positive set of data (all branches that match any of the masks)",
+                                          "name":  "Positive",
+                                          "nickname":  "P"
+                                      },
+                                      {
+                                          "description":  "Negative set of data (all branches that do not match any of the masks",
+                                          "name":  "Negative",
+                                          "nickname":  "N"
+                                      }
+                                  ],
+                      "name":  "Split Tree",
+                      "subcategory":  "Tree",
+                      "inputs":  [
+                                     {
+                                         "description":  "Tree to split",
+                                         "name":  "Data",
+                                         "nickname":  "D"
+                                     },
+                                     {
+                                         "description":  "Splitting masks",
+                                         "name":  "Masks",
+                                         "nickname":  "M"
+                                     }
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Displays the indices in lists of points",
+                      "type":  "Grasshopper.Kernel.Components.GH_PointListComponent",
+                      "nickname":  "Points",
+                      "category":  "Display",
+                      "guid":  "1f18e802-4ab9-444f-bf3c-3e7e421a2acf",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Point List",
+                      "subcategory":  "Vector",
+                      "inputs":  [
+                                     {
+                                         "description":  "Points to display",
+                                         "name":  "Points",
+                                         "nickname":  "P"
+                                     },
+                                     {
+                                         "description":  "Draw point index numbers",
+                                         "name":  "Tags",
+                                         "nickname":  "T"
+                                     },
+                                     {
+                                         "description":  "Draw connecting lines",
+                                         "name":  "Lines",
+                                         "nickname":  "L"
+                                     },
+                                     {
+                                         "description":  "Optional Font size (in units)",
+                                         "name":  "Size",
+                                         "nickname":  "S"
+                                     }
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Filters a collection of input streams",
+                      "type":  "Grasshopper.Kernel.Components.GH_StreamFilterComponent_OBSOLETE",
+                      "nickname":  "Filter",
+                      "category":  "Sets",
+                      "guid":  "3e5582a1-901a-4f7c-b58d-f5d7e3166124",
+                      "outputs":  [
+                                      {
+                                          "description":  "Filtered stream",
+                                          "name":  "Stream",
+                                          "nickname":  "S"
+                                      }
+                                  ],
+                      "name":  "Stream Filter",
+                      "subcategory":  "Tree",
+                      "inputs":  [
+                                     {
+                                         "description":  "Index of Gate stream",
+                                         "name":  "Gate",
+                                         "nickname":  "G"
+                                     },
+                                     {
+                                         "description":  "Input stream at index 0",
+                                         "name":  "Stream 0",
+                                         "nickname":  "0"
+                                     },
+                                     {
+                                         "description":  "Input stream at index 1",
+                                         "name":  "Stream 1",
+                                         "nickname":  "1"
+                                     }
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Filters a collection of input streams",
+                      "type":  "Grasshopper.Kernel.Components.GH_StreamFilterComponent",
+                      "nickname":  "Filter",
+                      "category":  "Sets",
+                      "guid":  "eeafc956-268e-461d-8e73-ee05c6f72c01",
+                      "outputs":  [
+                                      {
+                                          "description":  "Filtered stream",
+                                          "name":  "Stream",
+                                          "nickname":  "S"
+                                      }
+                                  ],
+                      "name":  "Stream Filter",
+                      "subcategory":  "Tree",
+                      "inputs":  [
+                                     {
+                                         "description":  "Index of Gate stream",
+                                         "name":  "Gate",
+                                         "nickname":  "G"
+                                     },
+                                     {
+                                         "description":  "Input stream at index 0",
+                                         "name":  "Stream 0",
+                                         "nickname":  "0"
+                                     },
+                                     {
+                                         "description":  "Input stream at index 1",
+                                         "name":  "Stream 1",
+                                         "nickname":  "1"
+                                     }
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Redirects a stream into specific outputs.",
+                      "type":  "Grasshopper.Kernel.Components.GH_StreamGateComponent_OBSOLETE",
+                      "nickname":  "Gate",
+                      "category":  "Sets",
+                      "guid":  "d6313940-216b-487f-b511-6c8a5b87eae7",
+                      "outputs":  [
+                                      {
+                                          "description":  "Output for Gate index 0",
+                                          "name":  "Target 0",
+                                          "nickname":  "0"
+                                      },
+                                      {
+                                          "description":  "Output for Gate index 1",
+                                          "name":  "Target 1",
+                                          "nickname":  "1"
+                                      }
+                                  ],
+                      "name":  "Stream Gate",
+                      "subcategory":  "Tree",
+                      "inputs":  [
+                                     {
+                                         "description":  "Input stream",
+                                         "name":  "Stream",
+                                         "nickname":  "S"
+                                     },
+                                     {
+                                         "description":  "Gate index of output stream",
+                                         "name":  "Gate",
+                                         "nickname":  "G"
+                                     }
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Redirects a stream into specific outputs.",
+                      "type":  "Grasshopper.Kernel.Components.GH_StreamGateComponent",
+                      "nickname":  "Gate",
+                      "category":  "Sets",
+                      "guid":  "71fcc052-6add-4d70-8d97-cfb37ea9d169",
+                      "outputs":  [
+                                      {
+                                          "description":  "Output for Gate index 0",
+                                          "name":  "Target 0",
+                                          "nickname":  "0"
+                                      },
+                                      {
+                                          "description":  "Output for Gate index 1",
+                                          "name":  "Target 1",
+                                          "nickname":  "1"
+                                      }
+                                  ],
+                      "name":  "Stream Gate",
+                      "subcategory":  "Tree",
+                      "inputs":  [
+                                     {
+                                         "description":  "Input stream",
+                                         "name":  "Stream",
+                                         "nickname":  "S"
+                                     },
+                                     {
+                                         "description":  "Gate index of output stream",
+                                         "name":  "Gate",
+                                         "nickname":  "G"
+                                     }
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Remove all null and invalid entries from a Data Tree.",
+                      "type":  "Grasshopper.Kernel.Components.GH_CleanTreeComponent_OBSOLETE",
+                      "nickname":  "Clean",
+                      "category":  "Sets",
+                      "guid":  "70ce4230-da08-4fce-b29d-63dc42a88585",
+                      "outputs":  [
+                                      {
+                                          "description":  "Spotless data",
+                                          "name":  "Data",
+                                          "nickname":  "D"
+                                      }
+                                  ],
+                      "name":  "Clean Tree",
+                      "subcategory":  "Tree",
+                      "inputs":  [
+                                     {
+                                         "description":  "Data Tree to clean",
+                                         "name":  "Tree",
+                                         "nickname":  "T"
+                                     },
+                                     {
+                                         "description":  "Remove invalid entries in addition to null entries.",
+                                         "name":  "Invalid",
+                                         "nickname":  "X"
+                                     }
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Removed all null and invalid items from a data tree.",
+                      "type":  "Grasshopper.Kernel.Components.GH_CleanTreeComponent_OSBOLETE_AS_WELL",
+                      "nickname":  "Clean",
+                      "category":  "Sets",
+                      "guid":  "7991bc5f-8a01-4768-bfb0-a39357ac6b84",
+                      "outputs":  [
+                                      {
+                                          "description":  "Spotless data tree",
+                                          "name":  "Tree",
+                                          "nickname":  "T"
+                                      }
+                                  ],
+                      "name":  "Clean Tree",
+                      "subcategory":  "Tree",
+                      "inputs":  [
+                                     {
+                                         "description":  "Data tree to clean",
+                                         "name":  "Tree",
+                                         "nickname":  "T"
+                                     },
+                                     {
+                                         "description":  "Remove invalid items in addition to null items.",
+                                         "name":  "Clean Invalid",
+                                         "nickname":  "X"
+                                     },
+                                     {
+                                         "description":  "Remove empty branches.",
+                                         "name":  "Clean Empty",
+                                         "nickname":  "E"
+                                     }
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Removed all null and invalid items from a data tree.",
+                      "type":  "Grasshopper.Kernel.Components.GH_CleanTreeComponent",
+                      "nickname":  "Clean",
+                      "category":  "Sets",
+                      "guid":  "071c3940-a12d-4b77-bb23-42b5d3314a0d",
+                      "outputs":  [
+                                      {
+                                          "description":  "Spotless data tree",
+                                          "name":  "Tree",
+                                          "nickname":  "T"
+                                      }
+                                  ],
+                      "name":  "Clean Tree",
+                      "subcategory":  "Tree",
+                      "inputs":  [
+                                     {
+                                         "description":  "Remove null items from the tree.",
+                                         "name":  "Remove Nulls",
+                                         "nickname":  "N"
+                                     },
+                                     {
+                                         "description":  "Remove invalid items from the tree.",
+                                         "name":  "Remove Invalid",
+                                         "nickname":  "X"
+                                     },
+                                     {
+                                         "description":  "Remove empty branches from the tree.",
+                                         "name":  "Remove Empty",
+                                         "nickname":  "E"
+                                     },
+                                     {
+                                         "description":  "Data tree to clean",
+                                         "name":  "Tree",
+                                         "nickname":  "T"
+                                     }
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Test all items in a data tree for null.",
+                      "type":  "Grasshopper.Kernel.Components.GH_IsNullDataComponent_OBSOLETE",
+                      "nickname":  "Null",
+                      "category":  "Sets",
+                      "guid":  "e6859d1e-2b3d-4704-93ea-32714acae176",
+                      "outputs":  [
+                                      {
+                                          "description":  "True if corresponding item is null",
+                                          "name":  "Null",
+                                          "nickname":  "N"
+                                      }
+                                  ],
+                      "name":  "Null Check",
+                      "subcategory":  "Tree",
+                      "inputs":  [
+                                     {
+                                         "description":  "Data tree to test",
+                                         "name":  "Data",
+                                         "nickname":  "D"
+                                     }
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Remove small branches from a Data Tree.",
+                      "type":  "Grasshopper.Kernel.Components.GH_PruneTreeComponent",
+                      "nickname":  "Prune",
+                      "category":  "Sets",
+                      "guid":  "fe769f85-8900-45dd-ba11-ec9cd6c778c6",
+                      "outputs":  [
+                                      {
+                                          "description":  "Pruned tree",
+                                          "name":  "Tree",
+                                          "nickname":  "T"
+                                      }
+                                  ],
+                      "name":  "Prune Tree",
+                      "subcategory":  "Tree",
+                      "inputs":  [
+                                     {
+                                         "description":  "Data tree to prune",
+                                         "name":  "Tree",
+                                         "nickname":  "T"
+                                     },
+                                     {
+                                         "description":  "Remove branches with fewer than N0 items.",
+                                         "name":  "Minimum",
+                                         "nickname":  "N0"
+                                     },
+                                     {
+                                         "description":  "Remove branches with more than N1 items (use zero to ignore upper limit).",
+                                         "name":  "Maximum",
+                                         "nickname":  "N1"
+                                     }
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Graft a tree by adding an extra branch for every data item.",
+                      "type":  "Grasshopper.Kernel.Components.GH_GraftTreeComponent_OBSOLETE",
+                      "nickname":  "Graft",
+                      "category":  "Sets",
+                      "guid":  "10a8674b-f4bb-4fdf-a56e-94dc606ecf33",
+                      "outputs":  [
+                                      {
+                                          "description":  "Graft result",
+                                          "name":  "Tree",
+                                          "nickname":  "T"
+                                      }
+                                  ],
+                      "name":  "Graft Tree",
+                      "subcategory":  "Tree",
+                      "inputs":  [
+                                     {
+                                         "description":  "Data to graft",
+                                         "name":  "Data",
+                                         "nickname":  "D"
+                                     },
+                                     {
+                                         "description":  "Do not create branches for null items",
+                                         "name":  "Strip",
+                                         "nickname":  "S"
+                                     }
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Graft a data tree by adding an extra branch for every item.",
+                      "type":  "Grasshopper.Kernel.Components.GH_GraftTreeComponent",
+                      "nickname":  "Graft",
+                      "category":  "Sets",
+                      "guid":  "87e1d9ef-088b-4d30-9dda-8a7448a17329",
+                      "outputs":  [
+                                      {
+                                          "description":  "Grafted data tree",
+                                          "name":  "Tree",
+                                          "nickname":  "T"
+                                      }
+                                  ],
+                      "name":  "Graft Tree",
+                      "subcategory":  "Tree",
+                      "inputs":  [
+                                     {
+                                         "description":  "Data tree to graft",
+                                         "name":  "Tree",
+                                         "nickname":  "T"
+                                     }
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Simplify a tree by removing the overlap shared amongst all branches.",
+                      "type":  "Grasshopper.Kernel.Components.GH_SimplifyTreeComponent_OBSOLETE",
+                      "nickname":  "Simplify",
+                      "category":  "Sets",
+                      "guid":  "06b3086c-1e9d-41c2-bcfc-bb843156196e",
+                      "outputs":  [
+                                      {
+                                          "description":  "Simplified tree.",
+                                          "name":  "Tree",
+                                          "nickname":  "T"
+                                      }
+                                  ],
+                      "name":  "Simplify Tree",
+                      "subcategory":  "Tree",
+                      "inputs":  [
+                                     {
+                                         "description":  "Tree to simplify.",
+                                         "name":  "Tree",
+                                         "nickname":  "T"
+                                     }
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Simplify a data tree by removing the overlap shared amongst all branches.",
+                      "type":  "Grasshopper.Kernel.Components.GH_SimplifyTreeComponent",
+                      "nickname":  "Simplify",
+                      "category":  "Sets",
+                      "guid":  "1303da7b-e339-4e65-a051-82c4dce8224d",
+                      "outputs":  [
+                                      {
+                                          "description":  "Simplified data tree.",
+                                          "name":  "Tree",
+                                          "nickname":  "T"
+                                      }
+                                  ],
+                      "name":  "Simplify Tree",
+                      "subcategory":  "Tree",
+                      "inputs":  [
+                                     {
+                                         "description":  "Data tree to simplify.",
+                                         "name":  "Tree",
+                                         "nickname":  "T"
+                                     },
+                                     {
+                                         "description":  "Limit path collapse to indices at the start of the path only.",
+                                         "name":  "Front",
+                                         "nickname":  "F"
+                                     }
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Removes all branching information from a data tree.",
+                      "type":  "Grasshopper.Kernel.Components.GH_FlattenTreeComponent_OBSOLETE",
+                      "nickname":  "Flatten",
+                      "category":  "Sets",
+                      "guid":  "a13fcd5d-81af-4337-a32e-28dd7e23ae4c",
+                      "outputs":  [
+                                      {
+                                          "description":  "Squished data",
+                                          "name":  "Data",
+                                          "nickname":  "D"
+                                      }
+                                  ],
+                      "name":  "Flatten Tree",
+                      "subcategory":  "Tree",
+                      "inputs":  [
+                                     {
+                                         "description":  "Data stream to flatten",
+                                         "name":  "Data",
+                                         "nickname":  "D"
+                                     }
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Flatten a data tree by removing all branching information.",
+                      "type":  "Grasshopper.Kernel.Components.GH_FlattenTreeComponent",
+                      "nickname":  "Flatten",
+                      "category":  "Sets",
+                      "guid":  "f80cfe18-9510-4b89-8301-8e58faf423bb",
+                      "outputs":  [
+                                      {
+                                          "description":  "Flattened data tree",
+                                          "name":  "Tree",
+                                          "nickname":  "T"
+                                      }
+                                  ],
+                      "name":  "Flatten Tree",
+                      "subcategory":  "Tree",
+                      "inputs":  [
+                                     {
+                                         "description":  "Data tree to flatten",
+                                         "name":  "Tree",
+                                         "nickname":  "T"
+                                     },
+                                     {
+                                         "description":  "Path of flattened tree",
+                                         "name":  "Path",
+                                         "nickname":  "P"
+                                     }
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Unflatten a data tree by moving items back into branches.",
+                      "type":  "Grasshopper.Kernel.Components.GH_UnflattenTreeComponent",
+                      "nickname":  "Unflatten",
+                      "category":  "Sets",
+                      "guid":  "b8e2aa8f-8830-4ee1-bb59-613ea279c281",
+                      "outputs":  [
+                                      {
+                                          "description":  "Unflattened data tree",
+                                          "name":  "Tree",
+                                          "nickname":  "T"
+                                      }
+                                  ],
+                      "name":  "Unflatten Tree",
+                      "subcategory":  "Tree",
+                      "inputs":  [
+                                     {
+                                         "description":  "Data tree to unflatten",
+                                         "name":  "Tree",
+                                         "nickname":  "T"
+                                     },
+                                     {
+                                         "description":  "Guide data tree that defines the path layout",
+                                         "name":  "Guide",
+                                         "nickname":  "G"
+                                     }
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Reduce the complexity of a tree by merging the outermost branches.",
+                      "type":  "Grasshopper.Kernel.Components.GH_TrimTreeComponent",
+                      "nickname":  "Trim",
+                      "category":  "Sets",
+                      "guid":  "1177d6ee-3993-4226-9558-52b7fd63e1e3",
+                      "outputs":  [
+                                      {
+                                          "description":  "Trimmed data tree",
+                                          "name":  "Tree",
+                                          "nickname":  "T"
+                                      }
+                                  ],
+                      "name":  "Trim Tree",
+                      "subcategory":  "Tree",
+                      "inputs":  [
+                                     {
+                                         "description":  "Data tree to flatten",
+                                         "name":  "Tree",
+                                         "nickname":  "T"
+                                     },
+                                     {
+                                         "description":  "Number of outermost branches to merge",
+                                         "name":  "Depth",
+                                         "nickname":  "D"
+                                     }
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Match one data tree with another.",
+                      "type":  "Grasshopper.Kernel.Components.GH_MatchTreeComponent",
+                      "nickname":  "Match",
+                      "category":  "Sets",
+                      "guid":  "46372d0d-82dc-4acb-adc3-25d1fde04c4e",
+                      "outputs":  [
+                                      {
+                                          "description":  "Matched data tree containing the data of T but the layout of G",
+                                          "name":  "Tree",
+                                          "nickname":  "T"
+                                      }
+                                  ],
+                      "name":  "Match Tree",
+                      "subcategory":  "Tree",
+                      "inputs":  [
+                                     {
+                                         "description":  "Data tree to modify",
+                                         "name":  "Tree",
+                                         "nickname":  "T"
+                                     },
+                                     {
+                                         "description":  "Data tree to match",
+                                         "name":  "Guide",
+                                         "nickname":  "G"
+                                     }
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Find \u0026 replace paths in a data tree",
+                      "type":  "Grasshopper.Kernel.Components.GH_ReplacePathComponent",
+                      "nickname":  "Replace",
+                      "category":  "Sets",
+                      "guid":  "bfaaf799-77dc-4f31-9ad8-2f7d1a80aeb0",
+                      "outputs":  [
+                                      {
+                                          "description":  "Processed tree data",
+                                          "name":  "Data",
+                                          "nickname":  "D"
+                                      }
+                                  ],
+                      "name":  "Replace Paths",
+                      "subcategory":  "Tree",
+                      "inputs":  [
+                                     {
+                                         "description":  "Data stream to process",
+                                         "name":  "Data",
+                                         "nickname":  "D"
+                                     },
+                                     {
+                                         "description":  "Search masks",
+                                         "name":  "Search",
+                                         "nickname":  "S"
+                                     },
+                                     {
+                                         "description":  "Respective replacement paths",
+                                         "name":  "Replace",
+                                         "nickname":  "R"
+                                     }
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Extract all the branches from a tree",
+                      "type":  "Grasshopper.Kernel.Components.GH_ExplodeTreeComponent_OBSOLETE",
+                      "nickname":  "BANG!",
+                      "category":  "Sets",
+                      "guid":  "8a470a35-d673-4779-a65e-ba95765e59e4",
+                      "outputs":  [
+                                      {
+                                          "description":  "First branch in tree",
+                                          "name":  "Branch 0",
+                                          "nickname":  "0"
+                                      },
+                                      {
+                                          "description":  "Second branch in tree",
+                                          "name":  "Branch 1",
+                                          "nickname":  "1"
+                                      }
+                                  ],
+                      "name":  "Explode Tree",
+                      "subcategory":  "Tree",
+                      "inputs":  [
+                                     {
+                                         "description":  "Data tree to explode",
+                                         "name":  "Tree",
+                                         "nickname":  "T"
+                                     }
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Extract all the branches from a tree",
+                      "type":  "Grasshopper.Kernel.Components.GH_ExplodeTreeComponent",
+                      "nickname":  "BANG!",
+                      "category":  "Sets",
+                      "guid":  "74cad441-2264-45fe-a57d-85034751208a",
+                      "outputs":  [
+                                      {
+                                          "description":  "All data inside the branch at index: 0",
+                                          "name":  "Branch 0",
+                                          "nickname":  "-"
+                                      },
+                                      {
+                                          "description":  "All data inside the branch at index: 1",
+                                          "name":  "Branch 1",
+                                          "nickname":  "-"
+                                      }
+                                  ],
+                      "name":  "Explode Tree",
+                      "subcategory":  "Tree",
+                      "inputs":  [
+                                     {
+                                         "description":  "Data to explode",
+                                         "name":  "Data",
+                                         "nickname":  "D"
+                                     }
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Flip a matrix-like data tree by swapping rows and columns.",
+                      "type":  "Grasshopper.Kernel.Components.GH_FlipDataMatrixComponent",
+                      "nickname":  "Flip",
+                      "category":  "Sets",
+                      "guid":  "41aa4112-9c9b-42f4-847e-503b9d90e4c7",
+                      "outputs":  [
+                                      {
+                                          "description":  "Flipped data matrix",
+                                          "name":  "Data",
+                                          "nickname":  "D"
+                                      }
+                                  ],
+                      "name":  "Flip Matrix",
+                      "subcategory":  "Tree",
+                      "inputs":  [
+                                     {
+                                         "description":  "Data matrix to flip",
+                                         "name":  "Data",
+                                         "nickname":  "D"
+                                     }
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Shift the indices in all data tree paths",
+                      "type":  "Grasshopper.Kernel.Components.GH_ShiftDataPathComponent",
+                      "nickname":  "PShift",
+                      "category":  "Sets",
+                      "guid":  "2d61f4e0-47c5-41d6-a41d-6afa96ee63af",
+                      "outputs":  [
+                                      {
+                                          "description":  "Shifted data",
+                                          "name":  "Data",
+                                          "nickname":  "D"
+                                      }
+                                  ],
+                      "name":  "Shift Paths",
+                      "subcategory":  "Tree",
+                      "inputs":  [
+                                     {
+                                         "description":  "Data to modify",
+                                         "name":  "Data",
+                                         "nickname":  "D"
+                                     },
+                                     {
+                                         "description":  "Offset to apply to each branch",
+                                         "name":  "Offset",
+                                         "nickname":  "O"
+                                     }
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Group a geometry set under a name",
+                      "type":  "Grasshopper.Kernel.Components.GH_NamedGroupComponent",
+                      "nickname":  "Group",
+                      "category":  "Transform",
+                      "guid":  "19e1c6e9-6823-4c37-a222-db06efbd998b",
+                      "outputs":  [
+                                      {
+                                          "description":  "Geometry group",
+                                          "name":  "Group",
+                                          "nickname":  "G"
+                                      },
+                                      {
+                                          "description":  "Group geometry",
+                                          "name":  "Geometry",
+                                          "nickname":  "G"
+                                      },
+                                      {
+                                          "description":  "Group name",
+                                          "name":  "Name",
+                                          "nickname":  "N"
+                                      }
+                                  ],
+                      "name":  "Named Group",
+                      "subcategory":  "Util",
+                      "inputs":  [
+                                     {
+                                         "description":  "Geometry group",
+                                         "name":  "Group",
+                                         "nickname":  "G"
+                                     },
+                                     {
+                                         "description":  "Geometry to group",
+                                         "name":  "Geometry",
+                                         "nickname":  "G"
+                                     },
+                                     {
+                                         "description":  "Group name",
+                                         "name":  "Name",
+                                         "nickname":  "N"
+                                     }
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Group a geometry set",
+                      "type":  "Grasshopper.Kernel.Components.GH_GroupGeometryComponent",
+                      "nickname":  "Group",
+                      "category":  "Transform",
+                      "guid":  "874eebe7-835b-4f4f-9811-97e031c41597",
+                      "outputs":  [
+                                      {
+                                          "description":  "Grouped objects",
+                                          "name":  "Group",
+                                          "nickname":  "G"
+                                      }
+                                  ],
+                      "name":  "Group",
+                      "subcategory":  "Util",
+                      "inputs":  [
+                                     {
+                                         "description":  "Geometry to group",
+                                         "name":  "Geometry",
+                                         "nickname":  "G"
+                                     }
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Ungroup a geometry set",
+                      "type":  "Grasshopper.Kernel.Components.GH_UngroupGeometryComponent",
+                      "nickname":  "Ungroup",
+                      "category":  "Transform",
+                      "guid":  "a45f59c8-11c1-4ea7-9e10-847061b80d75",
+                      "outputs":  [
+                                      {
+                                          "description":  "Geometry inside the set",
+                                          "name":  "Geometry",
+                                          "nickname":  "G"
+                                      }
+                                  ],
+                      "name":  "Ungroup",
+                      "subcategory":  "Util",
+                      "inputs":  [
+                                     {
+                                         "description":  "Group to break up",
+                                         "name":  "Group",
+                                         "nickname":  "G"
+                                     }
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Merge two geometry sets",
+                      "type":  "Grasshopper.Kernel.Components.GH_MergeGroupComponent",
+                      "nickname":  "GMerge",
+                      "category":  "Transform",
+                      "guid":  "15204c6d-bba8-403d-9e8f-6660ab8e0df5",
+                      "outputs":  [
+                                      {
+                                          "description":  "Merged group",
+                                          "name":  "Group",
+                                          "nickname":  "G"
+                                      }
+                                  ],
+                      "name":  "Merge Group",
+                      "subcategory":  "Util",
+                      "inputs":  [
+                                     {
+                                         "description":  "First group",
+                                         "name":  "Group A",
+                                         "nickname":  "A"
+                                     },
+                                     {
+                                         "description":  "Second group",
+                                         "name":  "Group B",
+                                         "nickname":  "B"
+                                     }
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Split a group",
+                      "type":  "Grasshopper.Kernel.Components.GH_SplitGroupComponent",
+                      "nickname":  "GSplit",
+                      "category":  "Transform",
+                      "guid":  "fd03419e-e1cc-4603-8a57-6dfa56ed5dec",
+                      "outputs":  [
+                                      {
+                                          "description":  "Group including all the indices",
+                                          "name":  "Group A",
+                                          "nickname":  "A"
+                                      },
+                                      {
+                                          "description":  "Group excluding all the indices (hidden)",
+                                          "name":  "Group B",
+                                          "nickname":  "B"
+                                      }
+                                  ],
+                      "name":  "Split Group",
+                      "subcategory":  "Util",
+                      "inputs":  [
+                                     {
+                                         "description":  "Group to split",
+                                         "name":  "Group",
+                                         "nickname":  "G"
+                                     },
+                                     {
+                                         "description":  "Split indices",
+                                         "name":  "Indices",
+                                         "nickname":  "I"
+                                     },
+                                     {
+                                         "description":  "Wrap indices",
+                                         "name":  "Wrap",
+                                         "nickname":  "W"
+                                     }
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Delay data on its way through the document",
+                      "type":  "Grasshopper.Kernel.Components.GH_DataDamComponent",
+                      "nickname":  "Dam",
+                      "category":  "Params",
+                      "guid":  "65283518-ad00-49d3-87fb-f76823ebb162",
+                      "outputs":  [
+                                      {
+                                          "description":  "Buffered data",
+                                          "name":  "Data A",
+                                          "nickname":  "A"
+                                      }
+                                  ],
+                      "name":  "Data Dam",
+                      "subcategory":  "Util",
+                      "inputs":  [
+                                     {
+                                         "description":  "Data to buffer",
+                                         "name":  "Data A",
+                                         "nickname":  "A"
+                                     }
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Smooth out changing numbers over time",
+                      "type":  "Grasshopper.Kernel.Components.GH_SmoothNumbersComponent",
+                      "nickname":  "Smooth",
+                      "category":  "Maths",
+                      "guid":  "5b424e1c-d061-43cd-8c20-db84564b0502",
+                      "outputs":  [
+                                      {
+                                          "description":  "Smoothened numbers",
+                                          "name":  "Numbers",
+                                          "nickname":  "N"
+                                      }
+                                  ],
+                      "name":  "Smooth Numbers",
+                      "subcategory":  "Util",
+                      "inputs":  [
+                                     {
+                                         "description":  "Changing numbers",
+                                         "name":  "Numbers",
+                                         "nickname":  "N"
+                                     }
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Represents a list of 3D text tags in a Rhino viewport",
+                      "type":  "Grasshopper.Kernel.Components.GH_TextTag3DComponent_OBSOLETE",
+                      "nickname":  "Tag",
+                      "category":  "Vector",
+                      "guid":  "ebf4d987-09b9-4825-a735-cac3d4770c19",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Text Tag 3D",
+                      "subcategory":  "Point",
+                      "inputs":  [
+                                     {
+                                         "description":  "Location and orientation of text tag",
+                                         "name":  "Location",
+                                         "nickname":  "L"
+                                     },
+                                     {
+                                         "description":  "The text to display",
+                                         "name":  "Text",
+                                         "nickname":  "T"
+                                     },
+                                     {
+                                         "description":  "Size of text",
+                                         "name":  "Size",
+                                         "nickname":  "S"
+                                     }
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Represents a list of 3D text tags in a Rhino viewport",
+                      "type":  "Grasshopper.Kernel.Components.GH_TextTag3DComponent_OBSOLETE_AS_WELL",
+                      "nickname":  "Tag",
+                      "category":  "Vector",
+                      "guid":  "18564c36-5652-4c63-bb6f-f0e1273666dd",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Text Tag 3D",
+                      "subcategory":  "Point",
+                      "inputs":  [
+                                     {
+                                         "description":  "Location and orientation of text tag",
+                                         "name":  "Location",
+                                         "nickname":  "L"
+                                     },
+                                     {
+                                         "description":  "The text to display",
+                                         "name":  "Text",
+                                         "nickname":  "T"
+                                     },
+                                     {
+                                         "description":  "Size of text",
+                                         "name":  "Size",
+                                         "nickname":  "S"
+                                     },
+                                     {
+                                         "description":  "Optional colour of tag",
+                                         "name":  "Colour",
+                                         "nickname":  "C"
+                                     }
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Represents a list of 3D text tags in a Rhino viewport",
+                      "type":  "Grasshopper.Kernel.Components.GH_TextTag3DComponent",
+                      "nickname":  "Tag",
+                      "category":  "Display",
+                      "guid":  "5a41528b-12b9-40dc-a3f2-842034d267c4",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Text Tag 3D",
+                      "subcategory":  "Dimensions",
+                      "inputs":  [
+                                     {
+                                         "description":  "Location and orientation of text tag",
+                                         "name":  "Location",
+                                         "nickname":  "L"
+                                     },
+                                     {
+                                         "description":  "The text to display",
+                                         "name":  "Text",
+                                         "nickname":  "T"
+                                     },
+                                     {
+                                         "description":  "Size of text",
+                                         "name":  "Size",
+                                         "nickname":  "S"
+                                     },
+                                     {
+                                         "description":  "Optional colour of tag",
+                                         "name":  "Colour",
+                                         "nickname":  "C"
+                                     },
+                                     {
+                                         "description":  "Text justification",
+                                         "name":  "Justification",
+                                         "nickname":  "J"
+                                     }
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Represents a list of text tags in a Rhino viewport",
+                      "type":  "Grasshopper.Kernel.Components.GH_TextTagComponent_OBSOLETE",
+                      "nickname":  "Tag",
+                      "category":  "Vector",
+                      "guid":  "4b3d38d3-0620-42e5-9ae8-0d4d9ad914cd",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Text Tag",
+                      "subcategory":  "Point",
+                      "inputs":  [
+                                     {
+                                         "description":  "Location of text tag",
+                                         "name":  "Location",
+                                         "nickname":  "L"
+                                     },
+                                     {
+                                         "description":  "The text to display",
+                                         "name":  "Text",
+                                         "nickname":  "T"
+                                     }
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Represents a list of text tags in a Rhino viewport",
+                      "type":  "Grasshopper.Kernel.Components.GH_TextTagComponent",
+                      "nickname":  "Tag",
+                      "category":  "Display",
+                      "guid":  "3b220754-4114-4170-b6c3-b286b86ed524",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Text Tag",
+                      "subcategory":  "Dimensions",
+                      "inputs":  [
+                                     {
+                                         "description":  "Location of text tag",
+                                         "name":  "Location",
+                                         "nickname":  "L"
+                                     },
+                                     {
+                                         "description":  "The text to display",
+                                         "name":  "Text",
+                                         "nickname":  "T"
+                                     },
+                                     {
+                                         "description":  "Optional colour for tag",
+                                         "name":  "Colour",
+                                         "nickname":  "C"
+                                     }
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Specialized parameter to compare string input against different comparison engines",
+                      "type":  "Grasshopper.Rhinoceros.Params.Param_MatchText",
+                      "nickname":  "Match Text",
+                      "category":  "Params",
+                      "guid":  "d0abb9f4-6c6b-47d3-993b-58507ed13071",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Match Text",
+                      "subcategory":  "Model",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Contains a collection of attribute keys",
+                      "type":  "Grasshopper.Rhinoceros.Params.Param_ModelAttributeKey",
+                      "nickname":  "Key",
+                      "category":  "Params",
+                      "guid":  "17223436-22ea-4192-a683-0f97f9014d8c",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Model Attribute Key",
+                      "subcategory":  "Rhino",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Contains a collection of model content elements",
+                      "type":  "Grasshopper.Rhinoceros.Params.Param_ModelContent",
+                      "nickname":  "Content",
+                      "category":  "Params",
+                      "guid":  "39304976-7d5b-4dbc-b913-147bc3340e32",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Model Content",
+                      "subcategory":  "Rhino",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Contains a collection of fonts",
+                      "type":  "Grasshopper.Rhinoceros.Params.Param_ModelFont",
+                      "nickname":  "Font",
+                      "category":  "Params",
+                      "guid":  "91cba8ac-25ed-4ce5-9c14-59e806e573eb",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Font",
+                      "subcategory":  "Primitive",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Contains a collection of mesher settings",
+                      "type":  "Grasshopper.Rhinoceros.Params.Param_ModelMeshingParameters",
+                      "nickname":  "Mesher Settings",
+                      "category":  "Params",
+                      "guid":  "c5b9e91e-e0a9-4789-89ca-aa5d3e410580",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Model Mesher Settings",
+                      "subcategory":  "Primitive",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Contains a collection of model unit systems",
+                      "type":  "Grasshopper.Rhinoceros.Params.Param_ModelUnitSystem",
+                      "nickname":  "Unit System",
+                      "category":  "Params",
+                      "guid":  "92bc91e8-b235-4eed-86d5-0aced5c9c4bf",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Unit System",
+                      "subcategory":  "Primitive",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Arrow type",
+                      "type":  "Grasshopper.Rhinoceros.Annotations.Params.Param_AnnotationArrow",
+                      "nickname":  "Arrow",
+                      "category":  "Params",
+                      "guid":  "a6035ecc-5551-4ea2-ac00-56ec5c6b0dcf",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Arrow",
+                      "subcategory":  "Annotations",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Contains a collection of arrows and their properties",
+                      "type":  "Grasshopper.Rhinoceros.Annotations.Params.Param_AnnotationArrowSettings",
+                      "nickname":  "Arrows",
+                      "category":  "Params",
+                      "guid":  "1a3cc1fa-9f8b-4537-b0ac-74f1688cd6fd",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Arrow Settings",
+                      "subcategory":  "Rhino",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Contains a collection of dimension settings",
+                      "type":  "Grasshopper.Rhinoceros.Annotations.Params.Param_AnnotationDimensionSettings",
+                      "nickname":  "Dimension",
+                      "category":  "Params",
+                      "guid":  "5de23a52-b490-4d85-9c87-fbc0e353ecaf",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Dimension Settings",
+                      "subcategory":  "Rhino",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Contains a collection of leader settings",
+                      "type":  "Grasshopper.Rhinoceros.Annotations.Params.Param_AnnotationLeaderSettings",
+                      "nickname":  "Leaders",
+                      "category":  "Params",
+                      "guid":  "9f6e7314-7a4b-4b93-ad0d-54e1375ec24a",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Leader Settings",
+                      "subcategory":  "Rhino",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Contains a collection of text settings",
+                      "type":  "Grasshopper.Rhinoceros.Annotations.Params.Param_AnnotationTextSettings",
+                      "nickname":  "Texts",
+                      "category":  "Params",
+                      "guid":  "608e1d69-2b19-4a59-a752-871686ec29b4",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Text Settings",
+                      "subcategory":  "Rhino",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Contains a collection of tolerance settings",
+                      "type":  "Grasshopper.Rhinoceros.Annotations.Params.Param_AnnotationToleranceSettings",
+                      "nickname":  "Tolerances",
+                      "category":  "Params",
+                      "guid":  "345fd8f8-5fb0-4907-99fd-f21f3963e9b3",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Tolerance Settings",
+                      "subcategory":  "Rhino",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Contains a collection of units settings",
+                      "type":  "Grasshopper.Rhinoceros.Annotations.Params.Param_AnnotationUnitsSettings",
+                      "nickname":  "Units",
+                      "category":  "Params",
+                      "guid":  "d16a6a70-bfb7-41fd-90c6-62734d1dd016",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Units Settings",
+                      "subcategory":  "Rhino",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Contains a collection of date time format strings",
+                      "type":  "Grasshopper.Rhinoceros.Annotations.Params.Param_DateTimeFormat",
+                      "nickname":  "Format",
+                      "category":  "Params",
+                      "guid":  "92fb7644-3d25-4ba1-ab06-469bd58add90",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Date Time Format",
+                      "subcategory":  "Model",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Contains a collection of model annotation styles",
+                      "type":  "Grasshopper.Rhinoceros.Annotations.Params.Param_ModelAnnotationStyle",
+                      "nickname":  "Style",
+                      "category":  "Params",
+                      "guid":  "5ca0914d-b372-4a5e-aef3-137bd34abb6f",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Model Annotation Style",
+                      "subcategory":  "Rhino",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Contains an Earth anchor point which associates a model point and orientation with a latitude, longitude, and elevation value.",
+                      "type":  "Grasshopper.Rhinoceros.Model.Params.Param_EarthAnchorPoint",
+                      "nickname":  "Anchor",
+                      "category":  "Params",
+                      "guid":  "b3e57997-7c12-42cb-930e-eb74b6b7988f",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Earth Anchor Point",
+                      "subcategory":  "Primitive",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Contains a collection of model block definitions",
+                      "type":  "Grasshopper.Rhinoceros.Model.Params.Param_ModelInstanceDefinition",
+                      "nickname":  "Block Definition",
+                      "category":  "Params",
+                      "guid":  "988fbdfd-d3eb-4ead-ab83-d0db9f2a36d9",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Model Block Definition",
+                      "subcategory":  "Rhino",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Contains a collection of model layers",
+                      "type":  "Grasshopper.Rhinoceros.Model.Params.Param_ModelLayer",
+                      "nickname":  "Layer",
+                      "category":  "Params",
+                      "guid":  "1c0601b4-7b16-4712-b764-18751be7298a",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Model Layer",
+                      "subcategory":  "Rhino",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Contains a collection of model objects",
+                      "type":  "Grasshopper.Rhinoceros.Model.Params.Param_ModelObject",
+                      "nickname":  "Object",
+                      "category":  "Params",
+                      "guid":  "1c30cbca-3907-4e28-9003-b06352f5459c",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Model Object",
+                      "subcategory":  "Rhino",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Contains a collection of display modes",
+                      "type":  "Grasshopper.Rhinoceros.Display.Params.Param_ModelDisplayMode",
+                      "nickname":  "Display Mode",
+                      "category":  "Params",
+                      "guid":  "64539bd9-e33e-4cff-91dc-4987e8040d48",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Display Mode",
+                      "subcategory":  "Rhino",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Contains a collection of rhino page layouts",
+                      "type":  "Grasshopper.Rhinoceros.Display.Params.Param_ModelPageViewport",
+                      "nickname":  "Layout",
+                      "category":  "Params",
+                      "guid":  "4e007c9e-6521-4819-b16f-bdd3e768e003",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Layout Viewport",
+                      "subcategory":  "Rhino",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Contains a collection of Rhino viewports",
+                      "type":  "Grasshopper.Rhinoceros.Display.Params.Param_ModelStandardViewport",
+                      "nickname":  "Viewport",
+                      "category":  "Params",
+                      "guid":  "2aab104a-5b20-4d8f-a918-fda5f016c828",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Model Viewport",
+                      "subcategory":  "Rhino",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Contains a collection of view frames",
+                      "type":  "Grasshopper.Rhinoceros.Display.Params.Param_ModelView",
+                      "nickname":  "View",
+                      "category":  "Params",
+                      "guid":  "7069208c-c471-4b82-bae6-e938f16dacb0",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "View",
+                      "subcategory":  "Geometry",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Contains a collection of object display attributes",
+                      "type":  "Grasshopper.Rhinoceros.Display.Params.Param_ObjectDisplay",
+                      "nickname":  "Display",
+                      "category":  "Params",
+                      "guid":  "ce3d0672-fbed-4332-84b9-6f895dad48fa",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Object Display",
+                      "subcategory":  "Objects",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Contains a collection of object display colours",
+                      "type":  "Grasshopper.Rhinoceros.Display.Params.Param_ObjectDisplayColor",
+                      "nickname":  "Display Colour",
+                      "category":  "Rhino",
+                      "guid":  "3653cf51-4fa3-473b-b742-746c59a33796",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Object Display Colour",
+                      "subcategory":  "Objects",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Contains a collection of object display modes",
+                      "type":  "Grasshopper.Rhinoceros.Display.Params.Param_ObjectDisplayMode",
+                      "nickname":  "Display Mode",
+                      "category":  "Rhino",
+                      "guid":  "8aa197e1-20fc-4662-8c05-1474668d3636",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Object Display Mode",
+                      "subcategory":  "Params",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Contains a collection of object visibility attributes",
+                      "type":  "Grasshopper.Rhinoceros.Display.Params.Param_ObjectVisibility",
+                      "nickname":  "Visibility",
+                      "category":  "Params",
+                      "guid":  "7132aa5e-db44-4ad4-afbc-f5d9e424d254",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Object Visibility",
+                      "subcategory":  "Visibility",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Contains a collection of color gradients",
+                      "type":  "Grasshopper.Rhinoceros.Display.Params.Param_DisplayColorGradient",
+                      "nickname":  "Gradient",
+                      "category":  "Params",
+                      "guid":  "ffa1d4f8-1dd2-4495-8f2f-2e741aba7c54",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Color Gradient",
+                      "subcategory":  "Primitive",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Contains a collection of color stops",
+                      "type":  "Grasshopper.Rhinoceros.Display.Params.Param_DisplayColorStop",
+                      "nickname":  "Color Stop",
+                      "category":  "Params",
+                      "guid":  "ad13f223-bb9e-48d8-a5ab-51b2557bd69e",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Color Stop",
+                      "subcategory":  "Primitive",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Contains a collection of model hatch lines",
+                      "type":  "Grasshopper.Rhinoceros.Drafting.Params.Param_ModelHatchLine",
+                      "nickname":  "Hatch Line",
+                      "category":  "Params",
+                      "guid":  "778e8a8d-3ae6-4253-bd63-f0e725cb852e",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Hatch Line",
+                      "subcategory":  "Hatches",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Contains a collection of model hatch patterns",
+                      "type":  "Grasshopper.Rhinoceros.Drafting.Params.Param_ModelHatchPattern",
+                      "nickname":  "Hatch Pattern",
+                      "category":  "Params",
+                      "guid":  "347f62f4-3c6e-4156-a92e-49cb5ade89dc",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Model Hatch Pattern",
+                      "subcategory":  "Rhino",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Contains a collection of model linetypes",
+                      "type":  "Grasshopper.Rhinoceros.Drafting.Params.Param_ModelLinetype",
+                      "nickname":  "Linetype",
+                      "category":  "Params",
+                      "guid":  "c2c85a16-98f4-4f29-b1e4-9ea45744f80e",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Model Linetype",
+                      "subcategory":  "Rhino",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Contains a collection of model print widths",
+                      "type":  "Grasshopper.Rhinoceros.Drafting.Params.Param_ModelLineWidth",
+                      "nickname":  "Print Width",
+                      "category":  "Params",
+                      "guid":  "fc8387c3-cc00-4d2d-b3f8-4f2bfa894d6d",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Model Print Width",
+                      "subcategory":  "Rhino",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Contains a collection of object drafting attributes",
+                      "type":  "Grasshopper.Rhinoceros.Drafting.Params.Param_ObjectDrafting",
+                      "nickname":  "Drafting",
+                      "category":  "Params",
+                      "guid":  "ae26c08c-3ca4-4fd5-af73-497dbcd626a3",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Object Drafting",
+                      "subcategory":  "Objects",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Contains a collection of object print colours",
+                      "type":  "Grasshopper.Rhinoceros.Drafting.Params.Param_ObjectDraftingColor",
+                      "nickname":  "Print Colour",
+                      "category":  "Rhino",
+                      "guid":  "3e972aa1-906f-4957-9e1f-956cb1429030",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Object Print Colour",
+                      "subcategory":  "Params",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Contains a collection of object linetypes",
+                      "type":  "Grasshopper.Rhinoceros.Drafting.Params.Param_ObjectDraftingLinetype",
+                      "nickname":  "Linetype",
+                      "category":  "Rhino",
+                      "guid":  "8ff0c4b8-0798-49c0-8f2e-e726edfe1b48",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Object Linetype",
+                      "subcategory":  "Params",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Contains a collection of object print widths",
+                      "type":  "Grasshopper.Rhinoceros.Drafting.Params.Param_ObjectDraftingLineWidth",
+                      "nickname":  "Print Width",
+                      "category":  "Rhino",
+                      "guid":  "22149be8-8a95-4018-af41-050d03d5709b",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Object Print Width",
+                      "subcategory":  "Params",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Contains a collection of model environments",
+                      "type":  "Grasshopper.Rhinoceros.Render.Params.Param_ModelRenderEnvironment",
+                      "nickname":  "Environment",
+                      "category":  "Params",
+                      "guid":  "f0de0cc5-4178-4f6d-b804-cc1c4c8c8f1a",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Model Environment",
+                      "subcategory":  "Rhino",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Contains a collection of model materials",
+                      "type":  "Grasshopper.Rhinoceros.Render.Params.Param_ModelRenderMaterial",
+                      "nickname":  "Material",
+                      "category":  "Params",
+                      "guid":  "0b0088b7-9572-4e07-8f79-bff2dee3978a",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Model Material",
+                      "subcategory":  "Rhino",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Contains a collection of model environments",
+                      "type":  "Grasshopper.Rhinoceros.Render.Params.Param_ModelRenderTexture",
+                      "nickname":  "Texture",
+                      "category":  "Params",
+                      "guid":  "cfff3df1-3887-40ff-9b25-cbc9c6413414",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Model Texture",
+                      "subcategory":  "Rhino",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Contains a collection of object render attributes",
+                      "type":  "Grasshopper.Rhinoceros.Render.Params.Param_ObjectRender",
+                      "nickname":  "Render",
+                      "category":  "Params",
+                      "guid":  "3abbde21-9106-4846-882a-d1f8ca791cc0",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Object Render",
+                      "subcategory":  "Objects",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  },
+                  {
+                      "description":  "Contains a collection of object materials",
+                      "type":  "Grasshopper.Rhinoceros.Render.Params.Param_ObjectRenderMaterial",
+                      "nickname":  "Object Material",
+                      "category":  "Rhino",
+                      "guid":  "c17f7249-7f62-477d-b66d-fb79ef67eae0",
+                      "outputs":  [
+
+                                  ],
+                      "name":  "Object Material",
+                      "subcategory":  "Params",
+                      "inputs":  [
+
+                                 ],
+                      "assembly":  "Grasshopper"
+                  }
+              ],
+    "sdk":  "8.31.26126.13431",
+    "failures":  [
+                     {
+                         "error":  "Unable to load DLL \u0027rhcommon_c\u0027: A dynamic link library (DLL) initialization routine failed. (Exception from HRESULT: 0x8007045A)",
+                         "type":  "Grasshopper.Kernel.Special.GH_Scribble"
+                     },
+                     {
+                         "error":  "Unable to load DLL \u0027rhcommon_c\u0027: A dynamic link library (DLL) initialization routine failed. (Exception from HRESULT: 0x8007045A)",
+                         "type":  "Grasshopper.Kernel.Components.GH_CustomPreviewComponent"
+                     }
+                 ]
+}
